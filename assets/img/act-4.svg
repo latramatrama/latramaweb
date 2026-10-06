@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cine na Aldea">
+  <defs>
+    <linearGradient id="a4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26333f"/>
+      <stop offset="1" stop-color="#131b22"/>
+    </linearGradient>
+    <pattern id="a4w" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#f6ead3" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <pattern id="a4p" width="70" height="70" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="6" fill="#f6ead3" fill-opacity=".5"/>
+      <circle cx="51" cy="51" r="6" fill="#f6ead3" fill-opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#a4)"/>
+  <rect width="800" height="600" fill="url(#a4w)"/>
+
+  <!-- haz de proyector -->
+  <path d="M120 300 L800 60 L800 540 Z" fill="#e0a33e" fill-opacity=".28"/>
+  <path d="M120 300 L800 170 L800 430 Z" fill="#e0a33e" fill-opacity=".38"/>
+
+  <!-- proyector -->
+  <rect x="40" y="256" width="96" height="88" rx="10" fill="#f6ead3"/>
+  <circle cx="66" cy="240" r="34" fill="#f6ead3"/>
+  <circle cx="112" cy="240" r="34" fill="#f6ead3"/>
+  <circle cx="136" cy="300" r="16" fill="#e0a33e"/>
+
+  <!-- pantalla -->
+  <rect x="500" y="120" width="270" height="360" rx="6" fill="#f6ead3"/>
+  <rect x="500" y="120" width="270" height="360" rx="6" fill="url(#a4p)"/>
+  <rect x="500" y="120" width="270" height="60" fill="#c4552e"/>
+
+  <!-- espectadores -->
+  <g fill="#0d1419">
+    <path d="M180 600c0-58 30-96 30-96s30 38 30 96z"/>
+    <path d="M300 600c0-70 36-116 36-116s36 46 36 116z"/>
+    <path d="M430 600c0-58 30-96 30-96s30 38 30 96z"/>
+    <path d="M560 600c0-70 36-116 36-116s36 46 36 116z"/>
+    <path d="M690 600c0-54 28-90 28-90s28 36 28 90z"/>
+  </g>
+</svg>

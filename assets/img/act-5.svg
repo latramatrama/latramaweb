@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Ruta das Tellas">
+  <defs>
+    <linearGradient id="a5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#efe0c6"/>
+      <stop offset="1" stop-color="#e2ccab"/>
+    </linearGradient>
+    <pattern id="a5w" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#17130e" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#a5)"/>
+  <rect width="800" height="600" fill="url(#a5w)"/>
+
+  <!-- cielo con hilos -->
+  <g stroke="#c4552e" stroke-opacity=".5" stroke-width="2">
+    <path d="M0 70h800"/><path d="M0 110h800"/><path d="M0 150h800"/>
+  </g>
+  <circle cx="660" cy="110" r="54" fill="#e0a33e"/>
+
+  <!-- tejado de tejas -->
+  <g fill="#c4552e">
+    <path d="M0 330 L400 170 L800 330 L800 372 L400 214 L0 372 Z"/>
+  </g>
+  <g fill="#973f1f">
+    <path d="M40 336h60v40H40z"/><path d="M140 316h60v40h-60z"/><path d="M240 296h60v40h-60z"/>
+    <path d="M340 276h60v40h-60z"/><path d="M440 276h60v40h-60z"/><path d="M540 296h60v40h-60z"/>
+    <path d="M640 316h60v40h-60z"/><path d="M740 336h60v40h-60z"/>
+  </g>
+
+  <!-- muro -->
+  <rect x="0" y="372" width="800" height="228" fill="#f6ead3"/>
+  <g stroke="#17130e" stroke-opacity=".18" stroke-width="2">
+    <path d="M0 430h800"/><path d="M0 488h800"/><path d="M0 546h800"/>
+    <path d="M120 372v58"/><path d="M300 430v58"/><path d="M520 430v58"/>
+    <path d="M200 488v58"/><path d="M640 488v58"/><path d="M420 546v54"/>
+  </g>
+
+  <!-- ventana y puerta -->
+  <rect x="330" y="440" width="90" height="90" rx="6" fill="#2c5545"/>
+  <path d="M375 440v90M330 485h90" stroke="#f6ead3" stroke-width="5"/>
+  <path d="M580 600v-120a60 60 0 0 1 120 0v120z" fill="#c4552e"/>
+  <circle cx="672" cy="540" r="9" fill="#e0a33e"/>
+</svg>

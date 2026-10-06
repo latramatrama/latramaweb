@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-label="Un telar con hilos de colores">
+  <defs>
+    <linearGradient id="ab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2e7d3"/>
+      <stop offset="1" stop-color="#e4d3b6"/>
+    </linearGradient>
+    <pattern id="abw" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 25h50M25 0v50" stroke="#17130e" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="800" fill="url(#ab)"/>
+  <rect width="1000" height="800" fill="url(#abw)"/>
+
+  <!-- marco del telar -->
+  <rect x="70" y="70" width="860" height="660" rx="18" fill="none" stroke="#17130e" stroke-width="14"/>
+  <rect x="70" y="70" width="860" height="660" rx="18" fill="#f7f1e5" fill-opacity=".65"/>
+
+  <!-- urdimbre vertical -->
+  <g stroke="#17130e" stroke-opacity=".5" stroke-width="4">
+    <path d="M140 120v560"/><path d="M200 120v560"/><path d="M260 120v560"/>
+    <path d="M320 120v560"/><path d="M380 120v560"/><path d="M440 120v560"/>
+    <path d="M500 120v560"/><path d="M560 120v560"/><path d="M620 120v560"/>
+    <path d="M680 120v560"/><path d="M740 120v560"/><path d="M800 120v560"/>
+    <path d="M860 120v560"/>
+  </g>
+
+  <!-- pasada horizontal: la trama -->
+  <g>
+    <rect x="110" y="180" width="780" height="64" fill="#c4552e"/>
+    <rect x="110" y="330" width="780" height="64" fill="#e0a33e"/>
+    <rect x="110" y="480" width="780" height="64" fill="#2c5545"/>
+    <rect x="110" y="630" width="780" height="46" fill="#17130e"/>
+  </g>
+
+  <!-- nudo -->
+  <circle cx="500" cy="362" r="46" fill="#f7f1e5"/>
+  <circle cx="500" cy="362" r="46" fill="none" stroke="#17130e" stroke-width="8"/>
+  <path d="M474 362h52M500 336v52" stroke="#c4552e" stroke-width="8" stroke-linecap="round"/>
+</svg>

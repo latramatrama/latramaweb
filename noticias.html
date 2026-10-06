@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n-title="meta.title">La Trama · Asociación Cultural y Juvenil y Espacio de Dinamización Rural</title>
+<meta name="description" content="Noticias de La Trama: convocatorias, crónicas y memoria de la asociación cultural y juvenil del rural." data-i18n-content="meta.desc.news">
+<meta name="theme-color" content="#2c5545">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23c4552e'/%3E%3Cg stroke='%23f7f2e8' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M14 9v30'/%3E%3Cpath d='M24 9v30'/%3E%3Cpath d='M34 9v30'/%3E%3C/g%3E%3Cg stroke='%23e0a33e' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M9 16h30'/%3E%3Cpath d='M9 32h30'/%3E%3Cpath d='M9 24h30'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="common.skip">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="La Trama">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="12" fill="#c4552e"/>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+        <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 14v4"/><path d="M24 30v4"/><path d="M34 22v4"/></g>
+      </svg>
+      <span>
+        <span class="brand__name" data-i18n="brand.name">La Trama</span>
+        <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Principal">
+      <a class="nav__link" href="index.html" data-i18n="nav.home">Inicio</a>
+      <a class="nav__link" href="asociacion.html" data-i18n="nav.assoc">Asociación</a>
+      <a class="nav__link" href="actividades.html" data-i18n="nav.prog">Actividades</a>
+      <a class="nav__link" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+      <a class="nav__link" href="noticias.html" aria-current="page" data-i18n="nav.news">Noticias</a>
+      <a class="nav__link" href="contacto.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Idioma">
+        <button class="lang__btn" type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button class="lang__btn" type="button" data-lang-btn="gl" aria-pressed="false">GL</button>
+        <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+      <button class="burger" type="button" aria-label="Menú" aria-controls="mobile-menu" aria-expanded="false" data-i18n-aria="nav.menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <a class="mobile-menu__link" href="index.html" style="--i:0"><span data-i18n="nav.home">Inicio</span><span class="n" data-i18n="nav.num01">01</span></a>
+  <a class="mobile-menu__link" href="asociacion.html" style="--i:1"><span data-i18n="nav.assoc">Asociación</span><span class="n" data-i18n="nav.num02">02</span></a>
+  <a class="mobile-menu__link" href="actividades.html" style="--i:2"><span data-i18n="nav.prog">Actividades</span><span class="n" data-i18n="nav.num03">03</span></a>
+  <a class="mobile-menu__link" href="agenda.html" style="--i:3"><span data-i18n="nav.agenda">Agenda</span><span class="n" data-i18n="nav.num04">04</span></a>
+  <a class="mobile-menu__link" href="noticias.html" style="--i:4"><span data-i18n="nav.news">Noticias</span><span class="n" data-i18n="nav.num05">05</span></a>
+  <a class="mobile-menu__link" href="contacto.html" style="--i:5"><span data-i18n="nav.contact">Contacto</span><span class="n" data-i18n="nav.num06">06</span></a>
+  <div class="mobile-menu__foot">
+    <span data-i18n="nav.write">¿Hablamos? Escríbenos a hola@latrama.org</span>
+    <a class="btn btn--light btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="hero hero--page" style="--hero-a:#2c5545;--hero-b:#16271f">
+    <div class="hero__inner">
+      <div class="hero__panel is-active">
+        <nav class="breadcrumb" aria-label="migas">
+          <a href="index.html" data-i18n="nav.home">Inicio</a><span aria-hidden="true">/</span><span data-i18n="nav.news">Noticias</span>
+        </nav>
+        <span class="kicker kicker--light" data-i18n="news.hero.kicker">Noticias</span>
+        <h1 class="page-title" data-i18n="news.hero.title">Lo que contamos</h1>
+        <p class="page-intro" data-i18n="news.hero.intro">Crónicas, convocatorias y memoria de todo lo que pasa en el espacio.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destacada -->
+  <section class="section">
+    <div class="container">
+      <a class="feature-post" href="#" data-reveal="zoom">
+        <div class="feature-post__media">
+          <img src="assets/img/news-featured.svg" alt="" width="1000" height="700" loading="lazy">
+        </div>
+        <div class="feature-post__body">
+          <span class="kicker" data-i18n="news.feat.tag">Destacado</span>
+          <h2 class="h2" data-i18n="news.feat.title">La Trama abre el plazo de socios para 2026</h2>
+          <p data-i18n="news.feat.text">La asamblea de septiembre aprobó el plan anual: más talleres de oficios y la primera escuela de voluntariado del territorio.</p>
+          <span class="media-card__meta" style="margin-top:4px"><span data-i18n="news.feat.date">28 de septiembre de 2026</span></span>
+          <span class="link-arrow" style="margin-top:16px"><span data-i18n="news.feat.read">Leer la noticia</span><span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Lista de noticias -->
+  <section class="section section--paper section--ruled" id="ultimas">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="kicker" data-i18n="news.kicker">Actualidad</span>
+        <h2 class="h1" data-i18n="news.title">Últimas publicaciones</h2>
+        <p data-i18n="news.lead">Convocatorias, memorias y crónicas de lo que hacemos.</p>
+      </div>
+
+      <div class="grid-3" data-reveal-group>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n1.tag">Convocatoria</span>
+            <span class="post-card__date" data-i18n="news.n1.date">20 septiembre 2026</span>
+          </div>
+          <h3 data-i18n="news.n1.title">Abierta la inscripción para la Escola de Inverno</h3>
+          <p data-i18n="news.n1.text">Seis jornadas de talleres para niñas y niños de 6 a 13 años durante las vacaciones.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n2.tag">Crónica</span>
+            <span class="post-card__date" data-i18n="news.n2.date">8 septiembre 2026</span>
+          </div>
+          <h3 data-i18n="news.n2.title">El Festín da Trama reunió a 2.400 personas en tres días</h3>
+          <p data-i18n="news.n2.text">Balance de la undiciama edición del festival, con cartel local y más de 60 voluntarias.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n3.tag">Territorio</span>
+            <span class="post-card__date" data-i18n="news.n3.date">1 septiembre 2026</span>
+          </div>
+          <h3 data-i18n="news.n3.title">Doce productores estrenan puesto en el Mercado da Trama</h3>
+          <p data-i18n="news.n3.text">El programa de acompañamiento al comercio de proximidad suma nuevos creadores.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n4.tag">Equipo</span>
+            <span class="post-card__date" data-i18n="news.n4.date">22 agosto 2026</span>
+          </div>
+          <h3 data-i18n="news.n4.title">Buscamos persona para dinamización juvenil</h3>
+          <p data-i18n="news.n4.text">Oferta de trabajo de 20 horas semanales con contrato hasta diciembre de 2027.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n5.tag">Memoria</span>
+            <span class="post-card__date" data-i18n="news.n5.date">10 agosto 2026</span>
+          </div>
+          <h3 data-i18n="news.n5.title">Publicada la memoria de actividades de 2025</h3>
+          <p data-i18n="news.n5.text">Cuentas abiertas, resultados por líneas de trabajo y propuestas para este curso.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="post-card" data-reveal>
+          <div class="post-card__top">
+            <span class="post-card__cat" data-i18n="news.n6.tag">Patrimonio</span>
+            <span class="post-card__date" data-i18n="news.n6.date">30 julio 2026</span>
+          </div>
+          <h3 data-i18n="news.n6.title">La ruta das Tellas suma tres molinos recuperados</h3>
+          <p data-i18n="news.n6.text">La intervención se hizo con vecinas y vecinos del curso alto y el apoyo del ayuntamiento.</p>
+          <a class="link-arrow" href="#"><span data-i18n="common.more">Leer más</span><span aria-hidden="true">→</span></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Boletín -->
+  <section class="section section--tight" id="boletin">
+    <div class="container">
+      <form class="newsletter" data-newsletter data-reveal="zoom">
+        <div>
+          <h3 class="h3" data-i18n="news.nl.title">Boletín de La Trama</h3>
+          <p data-i18n="news.nl.text">Un correo al mes con la agenda, las convocatorias y poco más. Sin ruido.</p>
+        </div>
+        <div class="newsletter__form">
+          <label class="sr-only" for="nl-email" data-i18n="news.nl.ph">Tu correo electrónico</label>
+          <input id="nl-email" type="email" required data-i18n-ph="news.nl.ph" placeholder="Tu correo electrónico" aria-label="Email">
+          <button class="btn" type="submit" data-i18n="news.nl.btn">Suscribirme</button>
+        </div>
+      </form>
+      <p data-newsletter-note style="display:none;margin-top:14px;text-align:center;color:var(--forest);font-weight:550"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <rect width="48" height="48" rx="12" fill="#c4552e"/>
+            <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+            <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+          </svg>
+          <span>
+            <span class="brand__name" data-i18n="brand.name">La Trama</span>
+            <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+          </span>
+        </a>
+        <p data-i18n="footer.about">Un espacio gestionado por vecinas y vecinos.</p>
+        <p style="margin-top:14px;font-size:.8rem;opacity:.7" data-i18n="footer.tagline">Asociación Cultural y Juvenil · Espacio de Dinamización Rural</p>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.6 8.6h2.6V5.4h-2.6A4.2 4.2 0 0 0 10.4 9.6v1.8H8.2v3.2h2.2V22h3.2v-7.4h2.4l.4-3.2h-2.8V9.8c0-.7.4-1.2 1-1.2z"/></svg></a>
+          <a href="#" aria-label="Correo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.assoc">La asociación</h4>
+        <ul>
+          <li><a href="asociacion.html" data-i18n="footer.l1">Quiénes somos</a></li>
+          <li><a href="asociacion.html#equipo" data-i18n="footer.l2">Equipo y junta</a></li>
+          <li><a href="noticias.html" data-i18n="footer.l3">Memoria de actividades</a></li>
+          <li><a href="contacto.html" data-i18n="footer.l4">Hazte socio/a</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.prog">Programas</h4>
+        <ul>
+          <li><a href="actividades.html" data-i18n="footer.p1">Cultura</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p2">Juventud</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p3">Dinamización rural</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p4">Formación</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4 data-i18n="footer.contact">Contacto</h4>
+        <ul>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span><b data-i18n="footer.address.label">Dirección</b><span data-i18n="footer.address.value">Rúa do Prado, 14 · 27600 Vilalba (Lugo)</span></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5z" stroke-linejoin="round"/></svg><span><b data-i18n="footer.phone.label">Teléfono</b><a href="tel:+34658123456">+34 658 123 456</a></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg><span><b data-i18n="footer.email.label">Correo</b><a href="mailto:hola@latrama.org">hola@latrama.org</a></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span data-i18n="footer.rights">© 2026 La Trama. Todos los derechos reservados.</span>
+      <ul>
+        <li><a href="#" data-i18n="footer.g1">Aviso legal</a></li>
+        <li><a href="#" data-i18n="footer.g2">Política de privacidad</a></li>
+        <li><a href="#" data-i18n="footer.g3">Política de cookies</a></li>
+      </ul>
+      <span data-i18n="footer.made">Sitio web de La Trama</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

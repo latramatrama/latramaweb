@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Escola de Verán">
+  <defs>
+    <linearGradient id="a3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f7a64"/>
+      <stop offset="1" stop-color="#1d3a2f"/>
+    </linearGradient>
+    <pattern id="a3w" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#f6ead3" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#a3)"/>
+  <rect width="800" height="600" fill="url(#a3w)"/>
+
+  <!-- sol -->
+  <circle cx="620" cy="170" r="96" fill="#e0a33e"/>
+  <g stroke="#e0a33e" stroke-width="7" stroke-linecap="round" opacity=".85">
+    <path d="M620 34v-22"/><path d="M620 328v22"/>
+    <path d="M484 170h-22"/><path d="M778 170h22"/>
+    <path d="M524 74l-16-16"/><path d="M716 266l16 16"/>
+    <path d="M716 74l16-16"/><path d="M524 266l-16 16"/>
+  </g>
+
+  <!-- montañas de colores -->
+  <path d="M0 470 L180 300 L330 470 Z" fill="#c4552e"/>
+  <path d="M250 470 L430 250 L620 470 Z" fill="#e0a33e"/>
+  <path d="M520 470 L680 330 L800 470 Z" fill="#f6ead3" opacity=".9"/>
+  <rect x="0" y="466" width="800" height="134" fill="#17130e" fill-opacity=".85"/>
+
+  <!-- tizas -->
+  <g stroke-linecap="round" stroke-width="9">
+    <path d="M70 530h150" stroke="#e0a33e"/>
+    <path d="M70 566h96" stroke="#c4552e"/>
+    <path d="M560 530h170" stroke="#f6ead3"/>
+    <path d="M560 566h112" stroke="#3f7a64"/>
+  </g>
+</svg>

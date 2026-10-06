@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Boletín de noticias de La Trama">
+  <defs>
+    <linearGradient id="nf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4552e"/>
+      <stop offset="1" stop-color="#7c2f14"/>
+    </linearGradient>
+    <pattern id="nfw" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 25h50M25 0v50" stroke="#f6ead3" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="700" fill="url(#nf)"/>
+  <rect width="1000" height="700" fill="url(#nfw)"/>
+
+  <!-- taza de café - homenaje al taller de tinta -->
+  <g transform="rotate(-8 760 330)">
+    <rect x="690" y="260" width="120" height="86" rx="12" fill="#f6ead3"/>
+    <path d="M810 284h30c20 0 20 58-4 58h-26" fill="none" stroke="#f6ead3" stroke-width="9" stroke-linecap="round"/>
+    <path d="M706 322h88" stroke="#e0a33e" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- hojas de periódico -->
+  <g>
+    <rect x="60" y="120" width="230" height="300" rx="10" fill="#f6ead3" transform="rotate(-7 175 270)"/>
+    <rect x="150" y="330" width="230" height="300" rx="10" fill="#fffdf7" transform="rotate(4 265 480)"/>
+    <g stroke="#17130e" stroke-opacity=".16" stroke-width="5" stroke-linecap="round">
+      <path d="M192 392h130" transform="rotate(4 265 480)"/>
+      <path d="M192 430h100" transform="rotate(4 265 480)"/>
+      <path d="M192 466h140" transform="rotate(4 265 480)"/>
+      <path d="M192 504h80" transform="rotate(4 265 480)"/>
+      <path d="M192 542h120" transform="rotate(4 265 480)"/>
+    </g>
+    <rect x="105" y="150" width="140" height="14" rx="7" fill="#c4552e" transform="rotate(-7 175 157)"/>
+  </g>
+
+  <!-- línea de trama -->
+  <g stroke="#e0a33e" stroke-opacity=".85" stroke-width="2.4">
+    <path d="M60 610h880M60 622h880"/>
+  </g>
+  <g stroke="#17130e" stroke-opacity=".25" stroke-width="2">
+    <path d="M60 616h880"/>
+  </g>
+</svg>

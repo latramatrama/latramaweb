@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n-title="meta.title">La Trama · Asociación Cultural y Juvenil y Espacio de Dinamización Rural</title>
+<meta name="description" content="Quiénes somos en La Trama: historia, misión, valores, equipo y junta de la asociación cultural y juvenil y espacio de dinamización rural." data-i18n-content="meta.desc.asoc">
+<meta name="theme-color" content="#1d3a2f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23c4552e'/%3E%3Cg stroke='%23f7f2e8' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M14 9v30'/%3E%3Cpath d='M24 9v30'/%3E%3Cpath d='M34 9v30'/%3E%3C/g%3E%3Cg stroke='%23e0a33e' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M9 16h30'/%3E%3Cpath d='M9 32h30'/%3E%3Cpath d='M9 24h30'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="common.skip">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="La Trama">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="12" fill="#c4552e"/>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+        <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 14v4"/><path d="M24 30v4"/><path d="M34 22v4"/></g>
+      </svg>
+      <span>
+        <span class="brand__name" data-i18n="brand.name">La Trama</span>
+        <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Principal">
+      <a class="nav__link" href="index.html" data-i18n="nav.home">Inicio</a>
+      <a class="nav__link" href="asociacion.html" aria-current="page" data-i18n="nav.assoc">Asociación</a>
+      <a class="nav__link" href="actividades.html" data-i18n="nav.prog">Actividades</a>
+      <a class="nav__link" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+      <a class="nav__link" href="noticias.html" data-i18n="nav.news">Noticias</a>
+      <a class="nav__link" href="contacto.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Idioma">
+        <button class="lang__btn" type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button class="lang__btn" type="button" data-lang-btn="gl" aria-pressed="false">GL</button>
+        <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+      <button class="burger" type="button" aria-label="Menú" aria-controls="mobile-menu" aria-expanded="false" data-i18n-aria="nav.menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <a class="mobile-menu__link" href="index.html" style="--i:0"><span data-i18n="nav.home">Inicio</span><span class="n" data-i18n="nav.num01">01</span></a>
+  <a class="mobile-menu__link" href="asociacion.html" style="--i:1"><span data-i18n="nav.assoc">Asociación</span><span class="n" data-i18n="nav.num02">02</span></a>
+  <a class="mobile-menu__link" href="actividades.html" style="--i:2"><span data-i18n="nav.prog">Actividades</span><span class="n" data-i18n="nav.num03">03</span></a>
+  <a class="mobile-menu__link" href="agenda.html" style="--i:3"><span data-i18n="nav.agenda">Agenda</span><span class="n" data-i18n="nav.num04">04</span></a>
+  <a class="mobile-menu__link" href="noticias.html" style="--i:4"><span data-i18n="nav.news">Noticias</span><span class="n" data-i18n="nav.num05">05</span></a>
+  <a class="mobile-menu__link" href="contacto.html" style="--i:5"><span data-i18n="nav.contact">Contacto</span><span class="n" data-i18n="nav.num06">06</span></a>
+  <div class="mobile-menu__foot">
+    <span data-i18n="nav.write">¿Hablamos? Escríbenos a hola@latrama.org</span>
+    <a class="btn btn--light btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- Hero de página -->
+  <section class="hero hero--page" style="--hero-a:#2c5545;--hero-b:#16271f">
+    <div class="hero__inner">
+      <div class="hero__panel is-active">
+        <nav class="breadcrumb" aria-label="migas">
+          <a href="index.html" data-i18n="nav.home">Inicio</a><span aria-hidden="true">/</span><span data-i18n="nav.assoc">Asociación</span>
+        </nav>
+        <span class="kicker kicker--light" data-i18n="assoc.hero.kicker">La asociación</span>
+        <h1 class="page-title" data-i18n="assoc.hero.title">Quiénes somos</h1>
+        <p class="page-intro" data-i18n="assoc.hero.intro">Catorce años de historia contados por quienes la hacen.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historia -->
+  <section class="section" id="historia">
+    <div class="container">
+      <div class="split">
+        <div class="split__body" data-reveal="left">
+          <span class="kicker" data-i18n="assoc.story.kicker">Nuestra historia</span>
+          <h2 class="h1" data-i18n="assoc.story.title">Todo empezó con una pantalla en la plaza</h2>
+          <div class="prose" style="margin-top:22px">
+            <p class="dropcap" data-i18n="assoc.story.p1">En octubre de 2011, un grupo de vecinas y vecinos alquiló una pantalla.</p>
+            <p data-i18n="assoc.story.p2">Durante los primeros años fuimos un grupo sin sede.</p>
+            <p data-i18n="assoc.story.p3">Hoy somos una asociación cultural y juvenil con equipo estable.</p>
+            <blockquote data-i18n="assoc.story.quote">El rural no se recupera con folletos: se recupera haciendo cosas juntos, todas las semanas.</blockquote>
+          </div>
+        </div>
+        <div class="split__media" data-reveal="right">
+          <img src="assets/img/story.svg" alt="Proyección de cine en la plaza del pueblo" width="1000" height="800" loading="lazy">
+          <div class="media-badge">
+            <b>2011</b>
+            <span>Primera proyección · 60 personas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Valores -->
+  <section class="section section--paper section--ruled" id="valores">
+    <div class="container">
+      <div class="section-head section-head--center" data-reveal>
+        <span class="kicker kicker--center" data-i18n="assoc.values.kicker">Misión y valores</span>
+        <h2 class="h1" data-i18n="assoc.values.title">Lo que nos mantiene en movimiento</h2>
+        <p data-i18n="assoc.values.lead">Cuatro compromisos que revisamos cada año en asamblea.</p>
+      </div>
+
+      <div class="grid-4" data-reveal-group>
+        <div class="pillar" data-reveal>
+          <span class="pillar__n">01</span>
+          <h3 class="h4" data-i18n="assoc.values.v1.title">Gobernanza abierta</h3>
+          <p data-i18n="assoc.values.v1.text">Asamblea mensual, cuentas públicas y junta elegida.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__n">02</span>
+          <h3 class="h4" data-i18n="assoc.values.v2.title">Accesibilidad real</h3>
+          <p data-i18n="assoc.values.v2.text">Precios asequibles, espacios sin barreras y tres idiomas.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__n">03</span>
+          <h3 class="h4" data-i18n="assoc.values.v3.title">Cuidado y comunidad</h3>
+          <p data-i18n="assoc.values.v3.text">Acuerdos de convivencia, mediación y mirada atenta.</p>
+        </div>
+        <div class="pillar" data-reveal>
+          <span class="pillar__n">04</span>
+          <h3 class="h4" data-i18n="assoc.values.v4.title">Raíz y territorio</h3>
+          <p data-i18n="assoc.values.v4.text">Colaboramos con el tejido local antes que con cadenas de fuera.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cifras -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="stats-band" data-reveal-group>
+        <div data-reveal><b>320</b><span data-i18n="assoc.stats.s1">Socios y socias</span></div>
+        <div data-reveal><b>150+</b><span data-i18n="assoc.stats.s2">Actividades al año</span></div>
+        <div data-reveal><b>11</b><span data-i18n="assoc.stats.s3">Edición del Festín</span></div>
+        <div data-reveal><b>6</b><span data-i18n="assoc.stats.s4">Personas en el equipo</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cronología -->
+  <section class="section section--paper section--ruled" id="cronologia">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="kicker" data-i18n="assoc.time.kicker">Cronología</span>
+        <h2 class="h1" data-i18n="assoc.time.title">Catorce años tejiendo red</h2>
+      </div>
+      <div class="timeline" data-reveal-group>
+        <div class="timeline__item" data-reveal>
+          <span class="timeline__year" data-i18n="assoc.time.y1.year">2011</span>
+          <h4 class="h4" data-i18n="assoc.time.y1.title">Primeras proyecciones</h4>
+          <p data-i18n="assoc.time.y1.text">El cine en la plaza reúne a 60 personas y se firma el primer acta de la asociación.</p>
+        </div>
+        <div class="timeline__item" data-reveal>
+          <span class="timeline__year" data-i18n="assoc.time.y2.year">2014</span>
+          <h4 class="h4" data-i18n="assoc.time.y2.title">Escuela de verano</h4>
+          <p data-i18n="assoc.time.y2.text">Arranca el programa juvenil que hoy es la mayor actividad del calendario estival.</p>
+        </div>
+        <div class="timeline__item" data-reveal>
+          <span class="timeline__year" data-i18n="assoc.time.y3.year">2018</span>
+          <h4 class="h4" data-i18n="assoc.time.y3.title">Apertura del espacio</h4>
+          <p data-i18n="assoc.time.y3.text">El antiguo horno reabre como espacio social, taller y sala con aforo para 180 personas.</p>
+        </div>
+        <div class="timeline__item" data-reveal>
+          <span class="timeline__year" data-i18n="assoc.time.y4.year">2021</span>
+          <h4 class="h4" data-i18n="assoc.time.y4.title">Sello de dinamización</h4>
+          <p data-i18n="assoc.time.y4.text">Nos incorporamos a la red de espacios de dinamización rural y estrenamos programa de comercio local.</p>
+        </div>
+        <div class="timeline__item" data-reveal>
+          <span class="timeline__year" data-i18n="assoc.time.y5.year">2025</span>
+          <h4 class="h4" data-i18n="assoc.time.y5.title">Ampliación del obradoiro</h4>
+          <p data-i18n="assoc.time.y5.text">Un segundo taller permite abrir los talleres de oficios a los pueblos del entorno.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section class="section" id="equipo">
+    <div class="container">
+      <div class="section-head section-head--center" data-reveal>
+        <span class="kicker kicker--center" data-i18n="assoc.team.kicker">Equipo y junta</span>
+        <h2 class="h1" data-i18n="assoc.team.title">Las personas que lo hacen posible</h2>
+        <p data-i18n="assoc.team.lead">Seis personas en el equipo técnico y una junta elegida cada dos años.</p>
+      </div>
+
+      <div class="grid-3" data-reveal-group>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#c4552e,#973f1f)" aria-hidden="true">MR</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m1.name">Marina Rocha</b>
+            <span data-i18n="assoc.team.m1.role">Coordinación general</span>
+          </div>
+        </article>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#3f7a64,#1d3a2f)" aria-hidden="true">IS</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m2.name">Iván Sampedro</b>
+            <span data-i18n="assoc.team.m2.role">Programación cultural</span>
+          </div>
+        </article>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#e0a33e,#bd7f1d)" aria-hidden="true">UC</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m3.name">Uxía Castro</b>
+            <span data-i18n="assoc.team.m3.role">Dinamización juvenil</span>
+          </div>
+        </article>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#7d7264,#4b4239)" aria-hidden="true">BO</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m4.name">Brais Otero</b>
+            <span data-i18n="assoc.team.m4.role">Patrimonio y territorio</span>
+          </div>
+        </article>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#2c5545,#163026)" aria-hidden="true">SV</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m5.name">Sara Vilaboa</b>
+            <span data-i18n="assoc.team.m5.role">Formación y gestión</span>
+          </div>
+        </article>
+        <article class="member" data-reveal>
+          <div class="member__photo" style="background:linear-gradient(135deg,#a8462a,#6e2c17)" aria-hidden="true">LB</div>
+          <div class="member__body">
+            <b data-i18n="assoc.team.m6.name">Loïc Bertrand</b>
+            <span data-i18n="assoc.team.m6.role">Comunicación y diseño</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Colaboradores -->
+  <section class="section section--tight" data-reveal>
+    <div class="container">
+      <div class="section-head section-head--center" data-reveal style="margin-bottom:34px">
+        <span class="kicker kicker--center">Red</span>
+        <h3 class="h3">Entidades con las que tejemos</h3>
+      </div>
+      <div class="logos">
+        <div>Concello de Vilalba</div>
+        <div>CIF Vilalba</div>
+        <div>Asociación de Comerciantes</div>
+        <div>Grupo EFA Terras Altas</div>
+        <div>Museo da Terra</div>
+        <div>Cooperativa Muimenta</div>
+        <div>Escola Oficial de Idiomas</div>
+        <div>Rede de Dinamización Rural</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Únete -->
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band" data-reveal="zoom">
+        <h2 data-i18n="assoc.join.title">La Trama también es tuya</h2>
+        <p data-i18n="assoc.join.text">Hacerse socio cuesta 15 € al año.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="contacto.html"><span data-i18n="assoc.join.btn">Hazte socio/a</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--outline-light" href="actividades.html" data-i18n="assoc.join.btn2">Ver actividades</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <rect width="48" height="48" rx="12" fill="#c4552e"/>
+            <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+            <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+          </svg>
+          <span>
+            <span class="brand__name" data-i18n="brand.name">La Trama</span>
+            <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+          </span>
+        </a>
+        <p data-i18n="footer.about">Un espacio gestionado por vecinas y vecinos.</p>
+        <p style="margin-top:14px;font-size:.8rem;opacity:.7" data-i18n="footer.tagline">Asociación Cultural y Juvenil · Espacio de Dinamización Rural</p>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.6 8.6h2.6V5.4h-2.6A4.2 4.2 0 0 0 10.4 9.6v1.8H8.2v3.2h2.2V22h3.2v-7.4h2.4l.4-3.2h-2.8V9.8c0-.7.4-1.2 1-1.2z"/></svg></a>
+          <a href="#" aria-label="Correo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.assoc">La asociación</h4>
+        <ul>
+          <li><a href="asociacion.html" data-i18n="footer.l1">Quiénes somos</a></li>
+          <li><a href="asociacion.html#equipo" data-i18n="footer.l2">Equipo y junta</a></li>
+          <li><a href="noticias.html" data-i18n="footer.l3">Memoria de actividades</a></li>
+          <li><a href="contacto.html" data-i18n="footer.l4">Hazte socio/a</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.prog">Programas</h4>
+        <ul>
+          <li><a href="actividades.html" data-i18n="footer.p1">Cultura</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p2">Juventud</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p3">Dinamización rural</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p4">Formación</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4 data-i18n="footer.contact">Contacto</h4>
+        <ul>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span><b data-i18n="footer.address.label">Dirección</b><span data-i18n="footer.address.value">Rúa do Prado, 14 · 27600 Vilalba (Lugo)</span></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5z" stroke-linejoin="round"/></svg><span><b data-i18n="footer.phone.label">Teléfono</b><a href="tel:+34658123456">+34 658 123 456</a></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg><span><b data-i18n="footer.email.label">Correo</b><a href="mailto:hola@latrama.org">hola@latrama.org</a></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span data-i18n="footer.rights">© 2026 La Trama. Todos los derechos reservados.</span>
+      <ul>
+        <li><a href="#" data-i18n="footer.g1">Aviso legal</a></li>
+        <li><a href="#" data-i18n="footer.g2">Política de privacidad</a></li>
+        <li><a href="#" data-i18n="footer.g3">Política de cookies</a></li>
+      </ul>
+      <span data-i18n="footer.made">Sitio web de La Trama</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

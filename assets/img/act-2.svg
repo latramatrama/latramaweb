@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Mercado da Trama">
+  <defs>
+    <linearGradient id="a2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eab764"/>
+      <stop offset="1" stop-color="#d18d2a"/>
+    </linearGradient>
+    <pattern id="a2w" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#17130e" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <pattern id="a2c" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="#17130e" fill-opacity=".85"/>
+      <rect x="50" y="50" width="50" height="50" fill="#17130e" fill-opacity=".85"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#a2)"/>
+  <rect width="800" height="600" fill="url(#a2w)"/>
+
+  <!-- toldo de mercado -->
+  <path d="M0 0h800v150H0z" fill="url(#a2c)" opacity=".55"/>
+  <path d="M0 150q25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0 25 40 50 0V150H0z" fill="#f6ead3"/>
+
+  <!-- puestos -->
+  <g fill="#f6ead3">
+    <rect x="70" y="300" width="290" height="300" rx="8"/>
+    <rect x="440" y="300" width="290" height="300" rx="8"/>
+  </g>
+  <g fill="#c4552e">
+    <rect x="70" y="300" width="290" height="46" rx="8"/>
+    <rect x="440" y="300" width="290" height="46" rx="8"/>
+  </g>
+  <g fill="#17130e" fill-opacity=".8">
+    <circle cx="145" cy="440" r="34"/><circle cx="235" cy="440" r="34"/><circle cx="325" cy="440" r="34"/>
+    <rect x="111" y="500" width="68" height="68" rx="10"/>
+    <rect x="201" y="500" width="68" height="68" rx="10"/>
+    <rect x="291" y="500" width="68" height="68" rx="10"/>
+    <rect x="476" y="388" width="68" height="68" rx="10"/>
+    <rect x="566" y="388" width="68" height="68" rx="10"/>
+    <rect x="656" y="388" width="68" height="68" rx="10"/>
+    <circle cx="510" cy="524" r="34"/><circle cx="600" cy="524" r="34"/><circle cx="690" cy="524" r="34"/>
+  </g>
+</svg>

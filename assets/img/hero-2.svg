@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Paisaje tejido: bosque y tejido juvenil">
+  <defs>
+    <linearGradient id="s2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef0e3"/>
+      <stop offset="1" stop-color="#dfe4d0"/>
+    </linearGradient>
+    <pattern id="w2" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M0 23h46M23 0v46" stroke="#17130e" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <pattern id="k2" width="140" height="34" patternUnits="userSpaceOnUse">
+      <path d="M0 17h140" stroke="#2c5545" stroke-opacity=".35" stroke-width="1.4"/>
+      <rect x="66" y="11" width="12" height="12" rx="2" fill="#e0a33e" fill-opacity=".7"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#s2)"/>
+  <rect width="1600" height="1000" fill="url(#w2)"/>
+
+  <!-- luna / sol bajo -->
+  <circle cx="400" cy="330" r="140" fill="#e0a33e" fill-opacity=".92"/>
+  <circle cx="400" cy="330" r="200" fill="none" stroke="#2c5545" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="400" cy="330" r="252" fill="none" stroke="#2c5545" stroke-opacity=".2" stroke-width="2"/>
+
+  <rect x="0" y="188" width="1600" height="34" fill="url(#k2)"/>
+  <rect x="0" y="470" width="1600" height="34" fill="url(#k2)"/>
+
+  <!-- laderas -->
+  <path d="M0 660 C 250 606 470 546 720 606 C 980 668 1220 620 1600 574 L1600 1000 L0 1000 Z" fill="#4b7a67"/>
+  <path d="M0 776 C 300 736 560 796 840 806 C 1120 816 1350 760 1600 790 L1600 1000 L0 1000 Z" fill="#2c5545"/>
+  <path d="M0 890 C 340 862 640 918 960 918 C 1240 918 1420 884 1600 902 L1600 1000 L0 1000 Z" fill="#1d3a2f"/>
+
+  <g stroke="#f6ead3" stroke-opacity=".24" stroke-width="1.6">
+    <path d="M0 704 H1600"/><path d="M0 742 H1600"/>
+    <path d="M0 826 H1600"/><path d="M0 864 H1600"/>
+    <path d="M0 938 H1600"/><path d="M0 972 H1600"/>
+  </g>
+
+  <!-- bosque -->
+  <g fill="#17130e" fill-opacity=".72">
+    <path d="M1080 800c0-56 28-94 28-94s28 38 28 94-13 78-28 78-28-22-28-78z"/>
+    <rect x="1103" y="872" width="11" height="44" rx="5"/>
+    <path d="M1180 826c0-46 23-78 23-78s23 32 23 78-11 64-23 64-23-18-23-64z"/>
+    <rect x="1198" y="884" width="9" height="36" rx="4"/>
+    <path d="M1268 796c0-52 26-88 26-88s26 36 26 88-12 72-26 72-26-20-26-72z"/>
+    <rect x="1289" y="862" width="10" height="42" rx="5"/>
+    <path d="M150 838c0-44 22-74 22-74s22 30 22 74-11 60-22 60-22-16-22-60z"/>
+    <rect x="167" y="894" width="9" height="36" rx="4"/>
+  </g>
+</svg>

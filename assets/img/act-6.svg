@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Obradoiro de Lienzo">
+  <defs>
+    <linearGradient id="a6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2c5545"/>
+      <stop offset="1" stop-color="#163026"/>
+    </linearGradient>
+    <pattern id="a6w" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h40M20 0v40" stroke="#f6ead3" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#a6)"/>
+  <rect width="800" height="600" fill="url(#a6w)"/>
+
+  <!-- urdimbre -->
+  <g stroke="#f6ead3" stroke-opacity=".55" stroke-width="4">
+    <path d="M90 40v520"/><path d="M150 40v520"/><path d="M210 40v520"/>
+    <path d="M270 40v520"/><path d="M330 40v520"/><path d="M390 40v520"/>
+    <path d="M450 40v520"/><path d="M510 40v520"/><path d="M570 40v520"/>
+    <path d="M630 40v520"/><path d="M690 40v520"/><path d="M750 40v520"/>
+  </g>
+
+  <!-- trama tejida -->
+  <g>
+    <rect x="60" y="140" width="710" height="56" fill="#c4552e"/>
+    <rect x="60" y="252" width="710" height="56" fill="#e0a33e"/>
+    <rect x="60" y="364" width="710" height="56" fill="#f6ead3" fill-opacity=".92"/>
+    <rect x="60" y="476" width="710" height="56" fill="#c4552e" fill-opacity=".8"/>
+  </g>
+
+  <!-- pasadores del telar -->
+  <rect x="40" y="110" width="740" height="18" rx="9" fill="#17130e"/>
+  <rect x="40" y="548" width="740" height="18" rx="9" fill="#17130e"/>
+  <g fill="#e0a33e">
+    <circle cx="70" cy="119" r="13"/><circle cx="750" cy="119" r="13"/>
+    <circle cx="70" cy="557" r="13"/><circle cx="750" cy="557" r="13"/>
+  </g>
+</svg>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n-title="meta.title">La Trama · Asociación Cultural y Juvenil y Espacio de Dinamización Rural</title>
+<meta name="description" content="Actividades y programas de La Trama: cultura, juventud, dinamización rural y formación con talleres abiertos todo el año." data-i18n-content="meta.desc.prog">
+<meta name="theme-color" content="#973f1f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%23c4552e'/%3E%3Cg stroke='%23f7f2e8' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M14 9v30'/%3E%3Cpath d='M24 9v30'/%3E%3Cpath d='M34 9v30'/%3E%3C/g%3E%3Cg stroke='%23e0a33e' stroke-width='3.4' stroke-linecap='round'%3E%3Cpath d='M9 16h30'/%3E%3Cpath d='M9 32h30'/%3E%3Cpath d='M9 24h30'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="common.skip">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="La Trama">
+      <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect width="48" height="48" rx="12" fill="#c4552e"/>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+        <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+        <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 14v4"/><path d="M24 30v4"/><path d="M34 22v4"/></g>
+      </svg>
+      <span>
+        <span class="brand__name" data-i18n="brand.name">La Trama</span>
+        <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Principal">
+      <a class="nav__link" href="index.html" data-i18n="nav.home">Inicio</a>
+      <a class="nav__link" href="asociacion.html" data-i18n="nav.assoc">Asociación</a>
+      <a class="nav__link" href="actividades.html" aria-current="page" data-i18n="nav.prog">Actividades</a>
+      <a class="nav__link" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+      <a class="nav__link" href="noticias.html" data-i18n="nav.news">Noticias</a>
+      <a class="nav__link" href="contacto.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang" role="group" aria-label="Idioma">
+        <button class="lang__btn" type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button class="lang__btn" type="button" data-lang-btn="gl" aria-pressed="false">GL</button>
+        <button class="lang__btn" type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+      <button class="burger" type="button" aria-label="Menú" aria-controls="mobile-menu" aria-expanded="false" data-i18n-aria="nav.menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <a class="mobile-menu__link" href="index.html" style="--i:0"><span data-i18n="nav.home">Inicio</span><span class="n" data-i18n="nav.num01">01</span></a>
+  <a class="mobile-menu__link" href="asociacion.html" style="--i:1"><span data-i18n="nav.assoc">Asociación</span><span class="n" data-i18n="nav.num02">02</span></a>
+  <a class="mobile-menu__link" href="actividades.html" style="--i:2"><span data-i18n="nav.prog">Actividades</span><span class="n" data-i18n="nav.num03">03</span></a>
+  <a class="mobile-menu__link" href="agenda.html" style="--i:3"><span data-i18n="nav.agenda">Agenda</span><span class="n" data-i18n="nav.num04">04</span></a>
+  <a class="mobile-menu__link" href="noticias.html" style="--i:4"><span data-i18n="nav.news">Noticias</span><span class="n" data-i18n="nav.num05">05</span></a>
+  <a class="mobile-menu__link" href="contacto.html" style="--i:5"><span data-i18n="nav.contact">Contacto</span><span class="n" data-i18n="nav.num06">06</span></a>
+  <div class="mobile-menu__foot">
+    <span data-i18n="nav.write">¿Hablamos? Escríbenos a hola@latrama.org</span>
+    <a class="btn btn--light btn--sm" href="contacto.html" data-i18n="nav.cta">Hazte socio/a</a>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="hero hero--page" style="--hero-a:#c4552e;--hero-b:#5d2a1a">
+    <div class="hero__inner">
+      <div class="hero__panel is-active">
+        <nav class="breadcrumb" aria-label="migas">
+          <a href="index.html" data-i18n="nav.home">Inicio</a><span aria-hidden="true">/</span><span data-i18n="nav.prog">Actividades</span>
+        </nav>
+        <span class="kicker kicker--light" data-i18n="prog.hero.kicker">Actividades</span>
+        <h1 class="page-title" data-i18n="prog.hero.title">Programas y talleres</h1>
+        <p class="page-intro" data-i18n="prog.hero.intro">Seis líneas de programa abiertas todo el año, con inscripción sencilla.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programas -->
+  <section class="section" id="programas">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="kicker" data-i18n="prog.kicker">Qué hacemos</span>
+        <h2 class="h1" data-i18n="prog.title">Nuestros programas</h2>
+        <p data-i18n="prog.lead">Todos los programas son abiertos: no hace falta ser socio para participar.</p>
+      </div>
+
+      <div class="grid-3" data-reveal-group>
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">01</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p1.tag">Cultura</span>
+          <h3 class="h4" data-i18n="prog.p1.title">Escenario La Trama</h3>
+          <span class="area-card__meta" data-i18n="prog.p1.meta">De octubre a mayo</span>
+          <p data-i18n="prog.p1.text">Ciclo de conciertos, teatro de cámara y poesía en vivo.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">02</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 5.6a3.2 3.2 0 0 1 0 5.8"/><path d="M18.2 14.6c1.9.9 3.3 2.9 3.3 5.4"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p2.tag">Juventud</span>
+          <h3 class="h4" data-i18n="prog.p2.title">Grupo joven</h3>
+          <span class="area-card__meta" data-i18n="prog.p2.meta">Quincenal · Viernes</span>
+          <p data-i18n="prog.p2.text">Espacio quincenal para pensar y decidir el ocio del fin de semana.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">03</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 19h19"/><path d="M4 19 10 8l4 6 2.2-3.2L21 19z"/><circle cx="17.5" cy="5.5" r="2.5"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p3.tag">Rural</span>
+          <h3 class="h4" data-i18n="prog.p3.title">Rutas del entorno</h3>
+          <span class="area-card__meta" data-i18n="prog.p3.meta">Un sábado al mes</span>
+          <p data-i18n="prog.p3.text">Senderismo, arquitectura tradicional y cocina de temporada.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">04</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 1 6.5 18H20v3H6.5A2.5 2.5 0 0 1 4 20.5z"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p4.tag">Formación</span>
+          <h3 class="h4" data-i18n="prog.p4.title">Obradoiro de oficios</h3>
+          <span class="area-card__meta" data-i18n="prog.p4.meta">Trimestral</span>
+          <p data-i18n="prog.p4.text">Cestería, madera, tejido y arreglos con artesanos del valle.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">05</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V6.5A2.5 2.5 0 0 1 6.5 4H20v15H6.5A2.5 2.5 0 0 0 4 19z"/><path d="M8 8h8M8 12h8"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p5.tag">Cultura</span>
+          <h3 class="h4" data-i18n="prog.p5.title">Biblioteca y lectura</h3>
+          <span class="area-card__meta" data-i18n="prog.p5.meta">Todo el año</span>
+          <p data-i18n="prog.p5.text">Fondo de 4.000 volúmenes, club de lectura los miércoles.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+
+        <article class="area-card" data-reveal>
+          <span class="area-card__num">06</span>
+          <div class="area-card__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2.5"/><path d="M8 7V5.5A1.5 1.5 0 0 1 9.5 4h5A1.5 1.5 0 0 1 16 5.5V7"/><path d="M3 12h18"/></svg>
+          </div>
+          <span class="event-cat" data-i18n="prog.p6.tag">Juventud</span>
+          <h3 class="h4" data-i18n="prog.p6.title">Emprende rural</h3>
+          <span class="area-card__meta" data-i18n="prog.p6.meta">Convocatoria anual</span>
+          <p data-i18n="prog.p6.text">Acompañamiento para proyectos de empleo propio en el territorio.</p>
+          <a class="btn btn--sm" href="agenda.html" data-i18n="nav.agenda">Agenda</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--paper section--ruled" id="faq">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <span class="kicker" data-i18n="prog.faq.kicker">Cómo funciona</span>
+        <h2 class="h1" data-i18n="prog.faq.title">Preguntas frecuentes</h2>
+      </div>
+
+      <div class="accordion" data-accordion>
+        <div class="acc-item">
+          <button class="acc-btn" type="button" aria-expanded="false" aria-controls="faq-1">
+            <span data-i18n="prog.faq.q1.q">¿Hay que ser socio para apuntarse?</span>
+            <span class="acc-btn__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc-panel" id="faq-1">
+            <div class="acc-panel__inner" data-i18n="prog.faq.q1.a">No. Cualquier persona puede participar en cualquier actividad.</div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-btn" type="button" aria-expanded="false" aria-controls="faq-2">
+            <span data-i18n="prog.faq.q2.q">¿Cómo se inscribe uno en un taller?</span>
+            <span class="acc-btn__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc-panel" id="faq-2">
+            <div class="acc-panel__inner" data-i18n="prog.faq.q2.a">Por correo electrónico, por teléfono o acercándote al espacio en horario de apertura.</div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-btn" type="button" aria-expanded="false" aria-controls="faq-3">
+            <span data-i18n="prog.faq.q3.q">¿Qué pasa si no puedo ir tras haberme apuntado?</span>
+            <span class="acc-btn__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc-panel" id="faq-3">
+            <div class="acc-panel__inner" data-i18n="prog.faq.q3.a">Avisando con 24 horas de antelación la plaza se libera sin penalización.</div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-btn" type="button" aria-expanded="false" aria-controls="faq-4">
+            <span data-i18n="prog.faq.q4.q">¿Hay actividades para niñas y niños?</span>
+            <span class="acc-btn__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc-panel" id="faq-4">
+            <div class="acc-panel__inner" data-i18n="prog.faq.q4.a">Sí, sobre todo en la Escola de Verán y en los talleres familiares de fin de semana.</div>
+          </div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-btn" type="button" aria-expanded="false" aria-controls="faq-5">
+            <span data-i18n="prog.faq.q5.q">¿Puedo proponer una actividad?</span>
+            <span class="acc-btn__icon" aria-hidden="true"></span>
+          </button>
+          <div class="acc-panel" id="faq-5">
+            <div class="acc-panel__inner" data-i18n="prog.faq.q5.a">Escríbenos con la idea y la junta la valora en la asamblea del mes siguiente.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container">
+      <div class="cta-band" data-reveal="zoom">
+        <h2 data-i18n="cta.title">¿Te unes a la trama?</h2>
+        <p data-i18n="cta.text">La cuota social son 15 € al año.</p>
+        <div class="hero__actions">
+          <a class="btn btn--light" href="contacto.html"><span data-i18n="cta.btn">Hazte socio/a</span><span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a class="btn btn--outline-light" href="agenda.html">Agenda</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <rect width="48" height="48" rx="12" fill="#c4552e"/>
+            <g stroke="#f7f2e8" stroke-width="3.4" stroke-linecap="round"><path d="M14 9v30"/><path d="M24 9v30"/><path d="M34 9v30"/></g>
+            <g stroke="#e0a33e" stroke-width="3.4" stroke-linecap="round"><path d="M9 16h30"/><path d="M9 24h30"/><path d="M9 32h30"/></g>
+          </svg>
+          <span>
+            <span class="brand__name" data-i18n="brand.name">La Trama</span>
+            <span class="brand__sub" data-i18n="brand.sub">Dinamización Rural</span>
+          </span>
+        </a>
+        <p data-i18n="footer.about">Un espacio gestionado por vecinas y vecinos.</p>
+        <p style="margin-top:14px;font-size:.8rem;opacity:.7" data-i18n="footer.tagline">Asociación Cultural y Juvenil · Espacio de Dinamización Rural</p>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.6 8.6h2.6V5.4h-2.6A4.2 4.2 0 0 0 10.4 9.6v1.8H8.2v3.2h2.2V22h3.2v-7.4h2.4l.4-3.2h-2.8V9.8c0-.7.4-1.2 1-1.2z"/></svg></a>
+          <a href="#" aria-label="Correo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.assoc">La asociación</h4>
+        <ul>
+          <li><a href="asociacion.html" data-i18n="footer.l1">Quiénes somos</a></li>
+          <li><a href="asociacion.html#equipo" data-i18n="footer.l2">Equipo y junta</a></li>
+          <li><a href="noticias.html" data-i18n="footer.l3">Memoria de actividades</a></li>
+          <li><a href="contacto.html" data-i18n="footer.l4">Hazte socio/a</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-i18n="footer.prog">Programas</h4>
+        <ul>
+          <li><a href="actividades.html" data-i18n="footer.p1">Cultura</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p2">Juventud</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p3">Dinamización rural</a></li>
+          <li><a href="actividades.html" data-i18n="footer.p4">Formación</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-contact">
+        <h4 data-i18n="footer.contact">Contacto</h4>
+        <ul>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span><b data-i18n="footer.address.label">Dirección</b><span data-i18n="footer.address.value">Rúa do Prado, 14 · 27600 Vilalba (Lugo)</span></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M6.5 3.5h3l1.5 4-2 1.5a12 12 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.5 5.7 2 2 0 0 1 6.5 3.5z" stroke-linejoin="round"/></svg><span><b data-i18n="footer.phone.label">Teléfono</b><a href="tel:+34658123456">+34 658 123 456</a></span></li>
+          <li><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7.4 8.2 5.6 8.2-5.6" stroke-linecap="round"/></svg><span><b data-i18n="footer.email.label">Correo</b><a href="mailto:hola@latrama.org">hola@latrama.org</a></span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span data-i18n="footer.rights">© 2026 La Trama. Todos los derechos reservados.</span>
+      <ul>
+        <li><a href="#" data-i18n="footer.g1">Aviso legal</a></li>
+        <li><a href="#" data-i18n="footer.g2">Política de privacidad</a></li>
+        <li><a href="#" data-i18n="footer.g3">Política de cookies</a></li>
+      </ul>
+      <span data-i18n="footer.made">Sitio web de La Trama</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

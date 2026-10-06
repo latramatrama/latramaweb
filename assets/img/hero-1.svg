@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Paisaje tejido: colinas y sol">
+  <defs>
+    <linearGradient id="s1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6ead3"/>
+      <stop offset="1" stop-color="#eed7b4"/>
+    </linearGradient>
+    <pattern id="w1" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M0 23h46M23 0v46" stroke="#17130e" stroke-opacity=".05" stroke-width="1"/>
+    </pattern>
+    <pattern id="k1" width="120" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20h120" stroke="#17130e" stroke-opacity=".16" stroke-width="1.4"/>
+      <circle cx="60" cy="20" r="4.5" fill="#c4552e" fill-opacity=".55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#s1)"/>
+  <rect width="1600" height="1000" fill="url(#w1)"/>
+
+  <!-- sol -->
+  <circle cx="1185" cy="300" r="158" fill="#e0a33e"/>
+  <circle cx="1185" cy="300" r="215" fill="none" stroke="#e0a33e" stroke-opacity=".45" stroke-width="2"/>
+  <circle cx="1185" cy="300" r="268" fill="none" stroke="#e0a33e" stroke-opacity=".25" stroke-width="2"/>
+
+  <!-- hilos del cielo -->
+  <rect x="0" y="150" width="1600" height="40" fill="url(#k1)"/>
+  <rect x="0" y="420" width="1600" height="40" fill="url(#k1)"/>
+
+  <!-- colinas -->
+  <path d="M0 620 C 240 520 430 596 660 656 C 910 720 1130 600 1600 672 L1600 1000 L0 1000 Z" fill="#c4552e" fill-opacity=".92"/>
+  <path d="M0 742 C 260 668 520 748 780 780 C 1050 814 1300 730 1600 776 L1600 1000 L0 1000 Z" fill="#973f1f"/>
+  <path d="M0 862 C 300 812 600 880 900 892 C 1200 904 1400 856 1600 880 L1600 1000 L0 1000 Z" fill="#1d3a2f"/>
+
+  <!-- trama sobre las colinas -->
+  <g stroke="#f6ead3" stroke-opacity=".26" stroke-width="1.6">
+    <path d="M0 690 H1600"/><path d="M0 726 H1600"/>
+    <path d="M0 800 H1600"/><path d="M0 836 H1600"/>
+    <path d="M0 920 H1600"/><path d="M0 956 H1600"/>
+  </g>
+
+  <!-- árboles -->
+  <g fill="#17130e" fill-opacity=".78">
+    <path d="M300 852c0-42 22-70 22-70s22 28 22 70-10 62-22 62-22-20-22-62z"/>
+    <rect x="317" y="908" width="10" height="34" rx="4"/>
+    <path d="M386 876c0-34 18-56 18-56s18 22 18 56-8 50-18 50-18-16-18-50z"/>
+    <rect x="400" y="920" width="8" height="26" rx="4"/>
+    <path d="M1330 838c0-40 21-66 21-66s21 26 21 66-10 58-21 58-21-18-21-58z"/>
+    <rect x="1345" y="890" width="10" height="34" rx="4"/>
+  </g>
+</svg>

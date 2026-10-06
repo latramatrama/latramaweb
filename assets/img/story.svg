@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-label="Proyección en la plaza">
+  <defs>
+    <linearGradient id="st" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3d4a"/>
+      <stop offset="1" stop-color="#141d24"/>
+    </linearGradient>
+    <pattern id="stw" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M0 25h50M25 0v50" stroke="#f6ead3" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <pattern id="stp" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="7" fill="#17130e" fill-opacity=".16"/>
+      <circle cx="58" cy="58" r="7" fill="#17130e" fill-opacity=".16"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="800" fill="url(#st)"/>
+  <rect width="1000" height="800" fill="url(#stw)"/>
+
+  <!-- estrellas -->
+  <g fill="#f6ead3">
+    <circle cx="140" cy="110" r="3.4"/><circle cx="330" cy="80" r="2.6"/>
+    <circle cx="540" cy="140" r="3"/><circle cx="760" cy="90" r="2.6"/>
+    <circle cx="900" cy="170" r="3.4"/><circle cx="230" cy="210" r="2.2"/>
+    <circle cx="660" cy="230" r="2.4"/><circle cx="430" cy="180" r="2"/>
+  </g>
+
+  <!-- pantalla -->
+  <rect x="560" y="120" width="360" height="260" rx="8" fill="#f6ead3"/>
+  <rect x="560" y="120" width="360" height="260" rx="8" fill="url(#stp)"/>
+  <path d="M600 380v90M880 380v90" stroke="#17130e" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- haz de luz -->
+  <path d="M120 400 L560 140 L560 360 Z" fill="#e0a33e" fill-opacity=".3"/>
+  <rect x="60" y="356" width="90" height="80" rx="10" fill="#f6ead3"/>
+  <circle cx="140" cy="396" r="15" fill="#e0a33e"/>
+
+  <!-- colinas y público -->
+  <path d="M0 560 C 220 520 430 570 640 574 C 820 578 900 552 1000 566 L1000 800 L0 800 Z" fill="#1d3a2f"/>
+  <g fill="#0c1319">
+    <path d="M120 800c0-70 36-116 36-116s36 46 36 116z"/>
+    <path d="M280 800c0-84 42-138 42-138s42 54 42 138z"/>
+    <path d="M450 800c0-70 36-116 36-116s36 46 36 116z"/>
+    <path d="M620 800c0-84 42-138 42-138s42 54 42 138z"/>
+    <path d="M790 800c0-70 36-116 36-116s36 46 36 116z"/>
+  </g>
+  <g stroke="#f6ead3" stroke-opacity=".22" stroke-width="2">
+    <path d="M0 600h1000"/><path d="M0 640h1000"/>
+  </g>
+</svg>
