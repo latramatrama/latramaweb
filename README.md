@@ -72,8 +72,8 @@ español como respaldo.
 
 ## Nota
 
-La dirección (Rúa do Prado, 14 · 27600 Vilalba), teléfono (+34 658 123 456),
-correo (hola@latrama.org), cifras y nombres son **contenido de ejemplo** creado
+La dirección (Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)),
+correo (info@latramatrama.org), cifras y nombres son **contenido de ejemplo** creado
 para maquetar el sitio: deben sustituirse por los datos reales de la asociación.
 Las ilustraciones SVG están dibujadas a mano para este proyecto.
 

@@ -57,7 +57,7 @@ const I18N = {
 
     "home.hero.s3.kicker": "Red de Espacios (Os Padrosos)",
     "home.hero.s3.title": "Nuestro centro de <em>operaciones</em> y creación",
-    "home.hero.s3.sub": "En Os Padrosos (A Cañiza) albergamos talleres, residencias artísticas, eventos y acogida de voluntariado local e internacional.",
+    "home.hero.s3.sub": "En Os Padrosos (Crecente) albergamos talleres, residencias artísticas, eventos y acogida de voluntariado local e internacional.",
     "home.hero.s3.cta": "Únete a La Trama",
     "home.hero.s3.cta2": "Habla con nosotros",
 
@@ -87,7 +87,7 @@ const I18N = {
     "home.areas.a2.title": "Movilidad Internacional",
     "home.areas.a2.text": "Gestión de intercambios juveniles, voluntariado (CES) y proyectos europeos en red (Erasmus+).",
     "home.areas.a3.title": "Red de Espacios (Os Padrosos)",
-    "home.areas.a3.text": "Finca e inmueble acondicionado en A Cañiza para talleres, residencias artísticas y encuentros del territorio.",
+    "home.areas.a3.text": "Finca e inmueble acondicionado en Crecente para talleres, residencias artísticas y encuentros del territorio.",
     "home.areas.a4.title": "Consultoría a Terceros",
     "home.areas.a4.text": "Asesoramiento y redacción integral de proyectos europeos y fondos públicos para ayuntamientos y entidades.",
 
@@ -118,7 +118,7 @@ const I18N = {
     "home.dest.c6.tag": "Próximamente",
     "home.dest.c6.title": "Residencias en Os Padrosos",
     "home.dest.c6.meta": "En preparación",
-    "home.dest.c6.text": "Acogida de creadores, voluntarios y proyectos de investigación cultural en nuestro espacio de A Cañiza.",
+    "home.dest.c6.text": "Acogida de creadores, voluntarios y proyectos de investigación cultural en nuestro espacio de Crecente.",
 
     /* --- Home: agenda --- */
     "home.agenda.kicker": "Próximamente",
@@ -141,7 +141,7 @@ const I18N = {
     "home.agenda.e3.day": "--",
     "home.agenda.e3.month": "Prox",
     "home.agenda.e3.when": "Próximamente",
-    "home.agenda.e3.where": "Os Padrosos (A Cañiza)",
+    "home.agenda.e3.where": "Os Padrosos (Crecente)",
     "home.agenda.all": "Ver avances",
 
     /* --- Home: voces --- */
@@ -171,7 +171,7 @@ const I18N = {
     "footer.contact": "Contacto",
     "footer.legal": "Legal",
     "footer.address.label": "Dirección",
-    "footer.address.value": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "footer.address.value": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "footer.phone.label": "Teléfono",
     "footer.email.label": "Correo",
     "footer.l1": "Quiénes somos",
@@ -196,7 +196,7 @@ const I18N = {
     "assoc.story.kicker": "Nuestra historia",
     "assoc.story.title": "El origen de la trama",
     "assoc.story.p1": "La Trama nace como respuesta a la necesidad de unir hilos y crear alternativas en el rural. Inspiradas en la polisemia de \"tramar\" —tejer red, trabajar en equipo, pasar a la acción y crear un relato propio— constituimos esta asociación para fomentar el patrimonio y la cultura de base.",
-    "assoc.story.p2": "Contamos con el espacio Os Padrosos en A Cañiza como base de operaciones y realizamos acciones en la comarca do Ribeiro y alrededores, colaborando estrechamente con entidades locales y administraciones públicas.",
+    "assoc.story.p2": "Contamos con el espacio Os Padrosos en Crecente como base de operaciones y realizamos acciones en la comarca do Ribeiro y alrededores, colaborando estrechamente con entidades locales y administraciones públicas.",
     "assoc.story.p3": "Mantenemos intacto nuestro ADN asociativo, popular y de calle: la cultura se construye junta, desde abajo y con vocación de servicio al territorio.",
     "assoc.story.quote": "El rural se dinamiza haciendo cosas juntas, abriendo oportunidades e imaginando proyectos en común.",
 
@@ -231,7 +231,7 @@ const I18N = {
     "assoc.time.y5.text": "Desarrollo de proyectos KA2 de cooperación internacional y consolidación de la red territorial.",
 
     "assoc.stats.s1": "Equipo promotor",
-    "assoc.stats.s2": "Espacio base (A Cañiza)",
+    "assoc.stats.s2": "Espacio base (Crecente)",
     "assoc.stats.s3": "Ejes estratégicos",
     "assoc.stats.s4": "Ilusión por tramar",
 
@@ -250,6 +250,8 @@ const I18N = {
     "assoc.join.text": "Si tienes una idea, quieres proponer una actividad en tu zona o estás interesada en participar en proyectos de movilidad europea, ¡escríbenos y tramamos algo juntas!",
     "assoc.join.btn": "Escríbenos",
     "assoc.join.btn2": "Ver líneas de trabajo",
+    "assoc.partners.kicker": "Red",
+    "assoc.partners.title": "Entidades con las que tejemos",
 
     /* --- Actividades / programas --- */
     "prog.hero.kicker": "Actividades",
@@ -269,7 +271,7 @@ const I18N = {
     "prog.p2.meta": "Work in progress",
     "prog.p3.tag": "Espacios",
     "prog.p3.title": "Red de Espacios (Os Padrosos)",
-    "prog.p3.text": "Acondicionamiento y activación de Os Padrosos (A Cañiza) como espacio de creación, alojamiento de residencias e intercambio.",
+    "prog.p3.text": "Acondicionamiento y activación de Os Padrosos (Crecente) como espacio de creación, alojamiento de residencias e intercambio.",
     "prog.p3.meta": "Work in progress",
     "prog.p4.tag": "Consultoría",
     "prog.p4.title": "Consultoría y Redacción de Proyectos",
@@ -329,7 +331,7 @@ const I18N = {
     "agenda.ev2.day": "Prox",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Próximamente",
-    "agenda.ev2.where": "Comarca do Ribeiro / A Cañiza",
+    "agenda.ev2.where": "Comarca do Ribeiro / Crecente",
     "agenda.ev2.tag": "Movilidad",
 
     /* --- Noticias --- */
@@ -347,7 +349,7 @@ const I18N = {
     "news.feat.read": "Leer más",
 
     "news.n1.tag": "Espacios",
-    "news.n1.title": "Acondicionamiento de Os Padrosos en A Cañiza",
+    "news.n1.title": "Acondicionamiento de Os Padrosos en Crecente",
     "news.n1.text": "Preparamos las instalaciones para recibir residencias artísticas y voluntariado del Cuerpo Europeo de Solidaridad.",
     "news.n1.date": "Octubre de 2026",
     "news.n2.tag": "Consultoría",
@@ -372,7 +374,7 @@ const I18N = {
 
     "contact.info.title": "Información práctica",
     "contact.info.address.b": "Dirección base",
-    "contact.info.address.v": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "contact.info.address.v": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "contact.info.email.b": "Correo oficial",
     "contact.info.email.v": "info@latramatrama.org",
 
@@ -402,7 +404,7 @@ const I18N = {
     "contact.form.err": "Revisa los campos marcados antes de enviar.",
 
     "contact.map.title": "Os Padrosos",
-    "contact.map.text": "Aldea dos Padrosos s/n · 36440 A Cañiza (Pontevedra).",
+    "contact.map.text": "Lugar Padrosos 19 · 36420 Crecente (Pontevedra).",
     "contact.map.btn": "Cómo llegar",
 
     "contact.faq.kicker": "Antes de escribir",
@@ -468,7 +470,7 @@ const I18N = {
 
     "home.hero.s3.kicker": "Rede de Espazos (Os Padrosos)",
     "home.hero.s3.title": "O noso centro de <em>operacións</em> e creación",
-    "home.hero.s3.sub": "En Os Padrosos (A Cañiza) acollemos obradoiros, residencias artísticas, eventos e acollida de voluntariado local e internacional.",
+    "home.hero.s3.sub": "En Os Padrosos (Crecente) acollemos obradoiros, residencias artísticas, eventos e acollida de voluntariado local e internacional.",
     "home.hero.s3.cta": "Únete á Trama",
     "home.hero.s3.cta2": "Fala connosco",
 
@@ -496,7 +498,7 @@ const I18N = {
     "home.areas.a2.title": "Mobilidade Internacional",
     "home.areas.a2.text": "Xestión de intercambios xuvenís, voluntariado (CES) e proxectos europeos en rede (Erasmus+).",
     "home.areas.a3.title": "Rede de Espazos (Os Padrosos)",
-    "home.areas.a3.text": "Finca e inmoble acondicionado na Cañiza para obradoiros, residencias artísticas e encontros do territorio.",
+    "home.areas.a3.text": "Finca e inmoble acondicionado en Crecente para obradoiros, residencias artísticas e encontros do territorio.",
     "home.areas.a4.title": "Consultoría a Terceiros",
     "home.areas.a4.text": "Asesoramento e redacción integral de proxectos europeos e fondos públicos para concellos e entidades.",
 
@@ -526,7 +528,7 @@ const I18N = {
     "home.dest.c6.tag": "Proximamente",
     "home.dest.c6.title": "Residencias en Os Padrosos",
     "home.dest.c6.meta": "En preparación",
-    "home.dest.c6.text": "Acollida de creadores, voluntarios e proxectos de investigación cultural no noso espazo da Cañiza.",
+    "home.dest.c6.text": "Acollida de creadores, voluntarios e proxectos de investigación cultural no noso espazo de Crecente.",
 
     "home.agenda.kicker": "Proximamente",
     "home.agenda.title": "Axenda en construción",
@@ -548,7 +550,7 @@ const I18N = {
     "home.agenda.e3.day": "--",
     "home.agenda.e3.month": "Prox",
     "home.agenda.e3.when": "Proximamente",
-    "home.agenda.e3.where": "Os Padrosos (A Cañiza)",
+    "home.agenda.e3.where": "Os Padrosos (Crecente)",
     "home.agenda.all": "Ver avances",
 
     "home.voices.kicker": "Comunidade",
@@ -575,7 +577,7 @@ const I18N = {
     "footer.contact": "Contacto",
     "footer.legal": "Legal",
     "footer.address.label": "Dirección",
-    "footer.address.value": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "footer.address.value": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "footer.phone.label": "Teléfono",
     "footer.email.label": "Correo",
     "footer.l1": "Quen somos",
@@ -599,7 +601,7 @@ const I18N = {
     "assoc.story.kicker": "A nosa historia",
     "assoc.story.title": "A orixe da trama",
     "assoc.story.p1": "La Trama nace como resposta á necesidade de unir fíos e crear alternativas no rural. Inspiradas na polisemia de \"tramar\" —tecer rede, traballar en equipo, pasar á acción e crear un relato propio— constituímos esta asociación para fomentar o patrimonio e a cultura de base.",
-    "assoc.story.p2": "Contamos co espazo Os Padrosos na Cañiza como base de operacións e realizamos accións na comarca do Ribeiro e arredores, colaborando estreitamente con entidades locais e administracións públicas.",
+    "assoc.story.p2": "Contamos co espazo Os Padrosos en Crecente como base de operacións e realizamos accións na comarca do Ribeiro e arredores, colaborando estreitamente con entidades locais e administracións públicas.",
     "assoc.story.p3": "Mantemos intacto o noso ADN asociativo, popular e de rúa: a cultura constrúese xunta, desde abaixo e con vocación de servizo ao territorio.",
     "assoc.story.quote": "O rural dinamízase facendo cousas xuntas, abrindo oportunidades e imaxinando proxectos en común.",
 
@@ -634,7 +636,7 @@ const I18N = {
     "assoc.time.y5.text": "Desenvolvemento de proxectos KA2 de cooperación internacional e consolidación da rede territorial.",
 
     "assoc.stats.s1": "Equipo promotor",
-    "assoc.stats.s2": "Espazo base (A Cañiza)",
+    "assoc.stats.s2": "Espazo base (Crecente)",
     "assoc.stats.s3": "Eixes estratéxicos",
     "assoc.stats.s4": "Ilusión por tramar",
 
@@ -653,6 +655,8 @@ const I18N = {
     "assoc.join.text": "Se tes unha idea, queres propoñer unha actividade na túa zona ou estás interesada en participar en proxectos de mobilidade europea, ¡escríbenos e tramamos algo xuntas!",
     "assoc.join.btn": "Escríbenos",
     "assoc.join.btn2": "Ver liñas de traballo",
+    "assoc.partners.kicker": "Rede",
+    "assoc.partners.title": "Entidades coas que tecemos",
 
     "prog.hero.kicker": "Actividades",
     "prog.hero.title": "Programas e proxectos",
@@ -671,7 +675,7 @@ const I18N = {
     "prog.p2.meta": "Work in progress",
     "prog.p3.tag": "Espazos",
     "prog.p3.title": "Rede de Espazos (Os Padrosos)",
-    "prog.p3.text": "Acondicionamento e activación de Os Padrosos (A Cañiza) como espazo de creación, acollida de residencias e intercambio.",
+    "prog.p3.text": "Acondicionamento e activación de Os Padrosos (Crecente) como espazo de creación, acollida de residencias e intercambio.",
     "prog.p3.meta": "Work in progress",
     "prog.p4.tag": "Consultoría",
     "prog.p4.title": "Consultoría e Redacción de Proxectos",
@@ -730,7 +734,7 @@ const I18N = {
     "agenda.ev2.day": "Prox",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Proximamente",
-    "agenda.ev2.where": "Comarca do Ribeiro / A Cañiza",
+    "agenda.ev2.where": "Comarca do Ribeiro / Crecente",
     "agenda.ev2.tag": "Mobilidade",
 
     "news.hero.kicker": "Novas",
@@ -747,7 +751,7 @@ const I18N = {
     "news.feat.read": "Ler máis",
 
     "news.n1.tag": "Espazos",
-    "news.n1.title": "Acondicionamento de Os Padrosos na Cañiza",
+    "news.n1.title": "Acondicionamento de Os Padrosos en Crecente",
     "news.n1.text": "Preparamos as instalacións para recibir residencias artísticas e voluntariado do Corpo Europeo de Solidariedade.",
     "news.n1.date": "Outubro de 2026",
     "news.n2.tag": "Consultoría",
@@ -771,7 +775,7 @@ const I18N = {
 
     "contact.info.title": "Información práctica",
     "contact.info.address.b": "Dirección base",
-    "contact.info.address.v": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "contact.info.address.v": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "contact.info.email.b": "Correo oficial",
     "contact.info.email.v": "info@latramatrama.org",
 
@@ -801,7 +805,7 @@ const I18N = {
     "contact.form.err": "Revisa os campos marcados antes de enviar.",
 
     "contact.map.title": "Os Padrosos",
-    "contact.map.text": "Aldea dos Padrosos s/n · 36440 A Cañiza (Pontevedra).",
+    "contact.map.text": "Lugar Padrosos 19 · 36420 Crecente (Pontevedra).",
     "contact.map.btn": "Chegar ata aquí",
 
     "contact.faq.kicker": "Antes de escribir",
@@ -867,7 +871,7 @@ const I18N = {
 
     "home.hero.s3.kicker": "Spaces Network (Os Padrosos)",
     "home.hero.s3.title": "Our hub for <em>operations</em> and creation",
-    "home.hero.s3.sub": "At Os Padrosos (A Cañiza) we host workshops, artistic residencies, events and local and international volunteers.",
+    "home.hero.s3.sub": "At Os Padrosos (Crecente) we host workshops, artistic residencies, events and local and international volunteers.",
     "home.hero.s3.cta": "Join La Trama",
     "home.hero.s3.cta2": "Talk to us",
 
@@ -895,7 +899,7 @@ const I18N = {
     "home.areas.a2.title": "International Mobility",
     "home.areas.a2.text": "Youth exchanges management, volunteering (ESC) and networked European projects (Erasmus+).",
     "home.areas.a3.title": "Spaces Network (Os Padrosos)",
-    "home.areas.a3.text": "Adapted property and land in A Cañiza for workshops, artistic residencies and community gatherings.",
+    "home.areas.a3.text": "Adapted property and land in Crecente for workshops, artistic residencies and community gatherings.",
     "home.areas.a4.title": "Third-Party Consultancy",
     "home.areas.a4.text": "Advisory and full grant writing for European projects and public funds for municipalities and organisations.",
 
@@ -925,7 +929,7 @@ const I18N = {
     "home.dest.c6.tag": "Coming soon",
     "home.dest.c6.title": "Residencies at Os Padrosos",
     "home.dest.c6.meta": "In preparation",
-    "home.dest.c6.text": "Hosting makers, volunteers and cultural research projects at our space in A Cañiza.",
+    "home.dest.c6.text": "Hosting makers, volunteers and cultural research projects at our space in Crecente.",
 
     "home.agenda.kicker": "Coming soon",
     "home.agenda.title": "Agenda in progress",
@@ -947,7 +951,7 @@ const I18N = {
     "home.agenda.e3.day": "--",
     "home.agenda.e3.month": "Soon",
     "home.agenda.e3.when": "Coming soon",
-    "home.agenda.e3.where": "Os Padrosos (A Cañiza)",
+    "home.agenda.e3.where": "Os Padrosos (Crecente)",
     "home.agenda.all": "See updates",
 
     "home.voices.kicker": "Community",
@@ -974,7 +978,7 @@ const I18N = {
     "footer.contact": "Contact",
     "footer.legal": "Legal",
     "footer.address.label": "Address",
-    "footer.address.value": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "footer.address.value": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "footer.phone.label": "Phone",
     "footer.email.label": "Email",
     "footer.l1": "Who we are",
@@ -998,7 +1002,7 @@ const I18N = {
     "assoc.story.kicker": "Our story",
     "assoc.story.title": "The origin of the weave",
     "assoc.story.p1": "La Trama was born from the need to connect threads and build opportunities in rural areas. Inspired by \"tramar\" (weaving networks, teamwork, taking action and building our own narrative), we established this association to promote heritage and grassroots culture.",
-    "assoc.story.p2": "We use Os Padrosos in A Cañiza as our headquarters and run initiatives across the Ribeiro region and surroundings, working closely with local organisations and public institutions.",
+    "assoc.story.p2": "We use Os Padrosos in Crecente as our headquarters and run initiatives across the Ribeiro region and surroundings, working closely with local organisations and public institutions.",
     "assoc.story.p3": "We keep our grassroots, community DNA intact: culture is built together, from the ground up, in service of the territory.",
     "assoc.story.quote": "Rural areas thrive by creating together, opening opportunities and imagining shared projects.",
 
@@ -1033,7 +1037,7 @@ const I18N = {
     "assoc.time.y5.text": "Development of KA2 international cooperation projects and consolidation of the regional network.",
 
     "assoc.stats.s1": "Founding team",
-    "assoc.stats.s2": "Base space (A Cañiza)",
+    "assoc.stats.s2": "Base space (Crecente)",
     "assoc.stats.s3": "Strategic axes",
     "assoc.stats.s4": "Excitement to weave",
 
@@ -1052,6 +1056,8 @@ const I18N = {
     "assoc.join.text": "If you have an idea, want to propose an activity in your area or are interested in European mobility projects, drop us a line and let's weave something together!",
     "assoc.join.btn": "Write to us",
     "assoc.join.btn2": "See work areas",
+    "assoc.partners.kicker": "Network",
+    "assoc.partners.title": "Organisations we weave with",
 
     "prog.hero.kicker": "Activities",
     "prog.hero.title": "Programmes and projects",
@@ -1070,7 +1076,7 @@ const I18N = {
     "prog.p2.meta": "Work in progress",
     "prog.p3.tag": "Spaces",
     "prog.p3.title": "Spaces Network (Os Padrosos)",
-    "prog.p3.text": "Adaptation and activation of Os Padrosos (A Cañiza) as a creative hub, residency space and exchange centre.",
+    "prog.p3.text": "Adaptation and activation of Os Padrosos (Crecente) as a creative hub, residency space and exchange centre.",
     "prog.p3.meta": "Work in progress",
     "prog.p4.tag": "Consultancy",
     "prog.p4.title": "Project Consultancy & Grant Writing",
@@ -1129,7 +1135,7 @@ const I18N = {
     "agenda.ev2.day": "Soon",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Coming soon",
-    "agenda.ev2.where": "Ribeiro region / A Cañiza",
+    "agenda.ev2.where": "Ribeiro region / Crecente",
     "agenda.ev2.tag": "Mobility",
 
     "news.hero.kicker": "News",
@@ -1146,7 +1152,7 @@ const I18N = {
     "news.feat.read": "Read more",
 
     "news.n1.tag": "Spaces",
-    "news.n1.title": "Adapting Os Padrosos in A Cañiza",
+    "news.n1.title": "Adapting Os Padrosos in Crecente",
     "news.n1.text": "Setting up facilities to host artistic residencies and European Solidarity Corps volunteers.",
     "news.n1.date": "October 2026",
     "news.n2.tag": "Consultancy",
@@ -1170,7 +1176,7 @@ const I18N = {
 
     "contact.info.title": "Practical information",
     "contact.info.address.b": "Base address",
-    "contact.info.address.v": "Os Padrosos · Aldea dos Padrosos s/n, 36440 A Cañiza (Pontevedra)",
+    "contact.info.address.v": "Os Padrosos · Lugar Padrosos 19, 36420 Crecente (Pontevedra)",
     "contact.info.email.b": "Official email",
     "contact.info.email.v": "info@latramatrama.org",
 
@@ -1200,7 +1206,7 @@ const I18N = {
     "contact.form.err": "Please check the highlighted fields before sending.",
 
     "contact.map.title": "Os Padrosos",
-    "contact.map.text": "Aldea dos Padrosos s/n · 36440 A Cañiza (Pontevedra).",
+    "contact.map.text": "Lugar Padrosos 19 · 36420 Crecente (Pontevedra).",
     "contact.map.btn": "Get directions",
 
     "contact.faq.kicker": "Before writing",
