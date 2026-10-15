@@ -129,7 +129,7 @@ const I18N = {
     "home.agenda.e1.day": "--",
     "home.agenda.e1.month": "Prox",
     "home.agenda.e1.when": "Próximamente",
-    "home.agenda.e1.where": "Os Padrosos / Ribeiro",
+    "home.agenda.e1.where": "Os Padrosos (Crecente)",
     "home.agenda.e2.cat": "Tramando...",
     "home.agenda.e2.title": "Primer InfoPoint de Movilidad Europea",
     "home.agenda.e2.day": "--",
@@ -196,7 +196,7 @@ const I18N = {
     "assoc.story.kicker": "Nuestra historia",
     "assoc.story.title": "El origen de la trama",
     "assoc.story.p1": "La Trama nace como respuesta a la necesidad de unir hilos y crear alternativas en el rural. Inspiradas en la polisemia de \"tramar\" —tejer red, trabajar en equipo, pasar a la acción y crear un relato propio— constituimos esta asociación para fomentar el patrimonio y la cultura de base.",
-    "assoc.story.p2": "Contamos con el espacio Os Padrosos en Crecente como base de operaciones y realizamos acciones en la comarca do Ribeiro y alrededores, colaborando estrechamente con entidades locales y administraciones públicas.",
+    "assoc.story.p2": "Contamos con el espacio Os Padrosos en Crecente como base de operaciones y trabajamos en el rural gallego, sin excluir al resto de la población, colaborando estrechamente con entidades locales y administraciones públicas.",
     "assoc.story.p3": "Mantenemos intacto nuestro ADN asociativo, popular y de calle: la cultura se construye junta, desde abajo y con vocación de servicio al territorio.",
     "assoc.story.quote": "El rural se dinamiza haciendo cosas juntas, abriendo oportunidades e imaginando proyectos en común.",
 
@@ -331,7 +331,7 @@ const I18N = {
     "agenda.ev2.day": "Prox",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Próximamente",
-    "agenda.ev2.where": "Comarca do Ribeiro / Crecente",
+    "agenda.ev2.where": "Rural gallego",
     "agenda.ev2.tag": "Movilidad",
 
     /* --- Noticias --- */
@@ -538,7 +538,7 @@ const I18N = {
     "home.agenda.e1.day": "--",
     "home.agenda.e1.month": "Prox",
     "home.agenda.e1.when": "Proximamente",
-    "home.agenda.e1.where": "Os Padrosos / Ribeiro",
+    "home.agenda.e1.where": "Os Padrosos (Crecente)",
     "home.agenda.e2.cat": "Tramando...",
     "home.agenda.e2.title": "Primeiro InfoPoint de Mobilidade Europea",
     "home.agenda.e2.day": "--",
@@ -601,7 +601,7 @@ const I18N = {
     "assoc.story.kicker": "A nosa historia",
     "assoc.story.title": "A orixe da trama",
     "assoc.story.p1": "La Trama nace como resposta á necesidade de unir fíos e crear alternativas no rural. Inspiradas na polisemia de \"tramar\" —tecer rede, traballar en equipo, pasar á acción e crear un relato propio— constituímos esta asociación para fomentar o patrimonio e a cultura de base.",
-    "assoc.story.p2": "Contamos co espazo Os Padrosos en Crecente como base de operacións e realizamos accións na comarca do Ribeiro e arredores, colaborando estreitamente con entidades locais e administracións públicas.",
+    "assoc.story.p2": "Contamos co espazo Os Padrosos en Crecente como base de operacións e traballamos no rural galego, sen excluír o resto da poboación, colaborando estreitamente con entidades locais e administracións públicas.",
     "assoc.story.p3": "Mantemos intacto o noso ADN asociativo, popular e de rúa: a cultura constrúese xunta, desde abaixo e con vocación de servizo ao territorio.",
     "assoc.story.quote": "O rural dinamízase facendo cousas xuntas, abrindo oportunidades e imaxinando proxectos en común.",
 
@@ -734,7 +734,7 @@ const I18N = {
     "agenda.ev2.day": "Prox",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Proximamente",
-    "agenda.ev2.where": "Comarca do Ribeiro / Crecente",
+    "agenda.ev2.where": "Rural galego",
     "agenda.ev2.tag": "Mobilidade",
 
     "news.hero.kicker": "Novas",
@@ -939,7 +939,7 @@ const I18N = {
     "home.agenda.e1.day": "--",
     "home.agenda.e1.month": "Soon",
     "home.agenda.e1.when": "Coming soon",
-    "home.agenda.e1.where": "Os Padrosos / Ribeiro",
+    "home.agenda.e1.where": "Os Padrosos (Crecente)",
     "home.agenda.e2.cat": "Weaving...",
     "home.agenda.e2.title": "First European Mobility InfoPoint",
     "home.agenda.e2.day": "--",
@@ -1002,7 +1002,7 @@ const I18N = {
     "assoc.story.kicker": "Our story",
     "assoc.story.title": "The origin of the weave",
     "assoc.story.p1": "La Trama was born from the need to connect threads and build opportunities in rural areas. Inspired by \"tramar\" (weaving networks, teamwork, taking action and building our own narrative), we established this association to promote heritage and grassroots culture.",
-    "assoc.story.p2": "We use Os Padrosos in Crecente as our headquarters and run initiatives across the Ribeiro region and surroundings, working closely with local organisations and public institutions.",
+    "assoc.story.p2": "We use Os Padrosos in Crecente as our headquarters and work across rural Galicia, without excluding the rest of the population, working closely with local organisations and public institutions.",
     "assoc.story.p3": "We keep our grassroots, community DNA intact: culture is built together, from the ground up, in service of the territory.",
     "assoc.story.quote": "Rural areas thrive by creating together, opening opportunities and imagining shared projects.",
 
@@ -1135,7 +1135,7 @@ const I18N = {
     "agenda.ev2.day": "Soon",
     "agenda.ev2.month": "--",
     "agenda.ev2.when": "Coming soon",
-    "agenda.ev2.where": "Ribeiro region / Crecente",
+    "agenda.ev2.where": "Rural Galicia",
     "agenda.ev2.tag": "Mobility",
 
     "news.hero.kicker": "News",
