@@ -154,7 +154,7 @@ const I18N = {
     "home.voices.v2.name": "Adrián",
     "home.voices.v2.role": "Coordinación de Os Padrosos",
     "home.voices.v3.quote": "La dimensión europea permite traer recursos e intercambios que abren ventanas a la gente joven del pueblo.",
-    "home.voices.v3.name": "Malena",
+    "home.voices.v3.name": "Carolina",
     "home.voices.v3.role": "Tesorería y Gestión",
 
     /* --- CTA --- */
@@ -242,7 +242,7 @@ const I18N = {
     "assoc.team.m1.role": "Presidencia y Coordinación General",
     "assoc.team.m2.name": "Adrián",
     "assoc.team.m2.role": "Secretaría y Coordinación de Os Padrosos",
-    "assoc.team.m3.name": "Malena",
+    "assoc.team.m3.name": "Carolina",
     "assoc.team.m3.role": "Tesorería y Gestión",
 
     "assoc.join.kicker": "Participa",
@@ -560,7 +560,7 @@ const I18N = {
     "home.voices.v2.name": "Adrián",
     "home.voices.v2.role": "Coordinación de Os Padrosos",
     "home.voices.v3.quote": "A dimensión europea permite traer recursos e intercambios que abren xanelas á xente moza do pobo.",
-    "home.voices.v3.name": "Malena",
+    "home.voices.v3.name": "Carolina",
     "home.voices.v3.role": "Tesouraría e Xestión",
 
     "cta.title": "¿Paresceche sumarte á Trama?",
@@ -645,7 +645,7 @@ const I18N = {
     "assoc.team.m1.role": "Presidencia e Coordinación Xeral",
     "assoc.team.m2.name": "Adrián",
     "assoc.team.m2.role": "Secretaría e Coordinación de Os Padrosos",
-    "assoc.team.m3.name": "Malena",
+    "assoc.team.m3.name": "Carolina",
     "assoc.team.m3.role": "Tesouraría e Xestión",
 
     "assoc.join.kicker": "Participa",
@@ -959,7 +959,7 @@ const I18N = {
     "home.voices.v2.name": "Adrián",
     "home.voices.v2.role": "Os Padrosos Coordination",
     "home.voices.v3.quote": "The European perspective brings resources and exchanges that open windows for rural youth.",
-    "home.voices.v3.name": "Malena",
+    "home.voices.v3.name": "Carolina",
     "home.voices.v3.role": "Treasurer & Management",
 
     "cta.title": "Want to be part of La Trama?",
@@ -1044,7 +1044,7 @@ const I18N = {
     "assoc.team.m1.role": "Chair & General Coordination",
     "assoc.team.m2.name": "Adrián",
     "assoc.team.m2.role": "Secretary & Os Padrosos Coordination",
-    "assoc.team.m3.name": "Malena",
+    "assoc.team.m3.name": "Carolina",
     "assoc.team.m3.role": "Treasurer & Management",
 
     "assoc.join.kicker": "Get involved",
