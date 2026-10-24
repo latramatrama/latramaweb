@@ -1,4 +1,12 @@
-/* ==========================================================================
+/* Les Flos / Quaky - només per a títols */
+@font-face {
+  font-family: "Quaky";
+  src: url("../fonts/Quaky.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
    LA TRAMA · Asociación Cultural y Juvenil / Espacio de Dinamización Rural
    Sistema de diseño — hoja de estilos principal
    ========================================================================== */
@@ -36,7 +44,7 @@
   --r-pill: 999px;
 
   /* Tipografía */
-  --font-display: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  --font-display: "Quaky", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
 
@@ -454,10 +462,10 @@ strong, b { font-weight: 650; color: var(--ink); }
 .brand__name {
   font-family: var(--font-display);
   font-size: 1.32rem;
-  font-weight: 800;
-  letter-spacing: -0.015em;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .brand__sub {
