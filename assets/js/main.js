@@ -337,17 +337,30 @@
           status.className = "form-status is-visible is-ok";
           status.textContent = t("contact.form.ok");
           form.reset();
-        } else {
-          status.className = "form-status is-visible is-err";
-          status.textContent = data.message || t("contact.form.err");
+          if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+          status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+          return;
         }
-        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
-        status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+        throw new Error(data.message || 'error');
       })
       .catch(() => {
-        status.className = "form-status is-visible is-err";
-        status.textContent = t("contact.form.err");
+        const nameV = document.getElementById('f-name')?.value || '';
+        const emailV = document.getElementById('f-email')?.value || '';
+        const phoneV = document.getElementById('f-phone')?.value || '';
+        const subjV = document.getElementById('f-subject')?.value || '';
+        const msgV = document.getElementById('f-msg')?.value || '';
+        const subject = encodeURIComponent('Mensaje web La Trama - ' + subjV);
+        const body = encodeURIComponent(
+          'Nombre: ' + nameV + '\n' +
+          'Email: ' + emailV + '\n' +
+          'Teléfono: ' + phoneV + '\n' +
+          'Motivo: ' + subjV + '\n\n' +
+          'Mensaje:\n' + msgV
+        );
+        status.className = "form-status is-visible is-ok";
+        status.textContent = t("contact.form.ok");
         if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+        window.location.href = 'mailto:info@latramatrama.org?subject=' + subject + '&body=' + body;
       });
     });
 
