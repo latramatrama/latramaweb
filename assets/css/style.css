@@ -1,3 +1,40 @@
+/* Outfit (Identitat La Trama) */
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/outfit/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Les Flos / Quaky - només per a títols */
 @font-face {
   font-family: "Quaky";
@@ -46,9 +83,8 @@
   --r-pill: 999px;
 
   /* Tipografía */
-  --font-display: "Quaky", "Iowan Old Style", Georgia, "Times New Roman", serif;
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif;
+  --font-display: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-sans: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
   /* Medidas */
   --maxw: 1240px;
@@ -460,6 +496,14 @@ strong, b { font-weight: 650; color: var(--ink); }
 }
 
 .brand:hover .brand__mark { transform: rotate(-90deg); }
+
+.brand__logo {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+}
 
 .brand__name {
   font-family: var(--font-display);
