@@ -317,10 +317,16 @@
         return;
       }
 
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
+
       status.className = "form-status is-visible is-ok";
       status.textContent = t("contact.form.ok");
-      form.reset();
       status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+
+      setTimeout(() => {
+        form.submit();
+      }, 600);
     });
 
     $$("input, textarea, select", form).forEach((f) => {

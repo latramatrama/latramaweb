@@ -87,7 +87,11 @@
 
       <div class="grid-2" style="align-items:start" data-reveal-group>
 
-        <form id="contact-form" class="form-grid" novalidate data-reveal="left">
+        <form id="contact-form" class="form-grid" action="https://formsubmit.co/info@latramatrama.org" method="POST" novalidate data-reveal="left">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde latramatrama.org">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="field">
             <label for="f-name"><span data-i18n="contact.form.name">Nombre y apellidos</span> <span class="req" aria-hidden="true">*</span></label>
             <input id="f-name" name="name" type="text" autocomplete="name" required data-i18n-ph="contact.form.name.ph" placeholder="Cómo te llamas">
