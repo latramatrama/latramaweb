@@ -320,10 +320,16 @@
       const btn = form.querySelector('button[type="submit"]');
       if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
 
+      const emailInput = document.getElementById('f-email');
+      const replyto = form.querySelector('input[name="replyto"]');
+      if (replyto && emailInput) replyto.value = emailInput.value;
       const formData = new FormData(form);
       fetch(form.action, {
         method: "POST",
-        body: formData
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
       })
       .then(r => r.json())
       .then(data => {
@@ -333,7 +339,7 @@
           form.reset();
         } else {
           status.className = "form-status is-visible is-err";
-          status.textContent = t("contact.form.err");
+          status.textContent = data.message || t("contact.form.err");
         }
         if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
         status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
