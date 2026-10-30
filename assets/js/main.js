@@ -320,13 +320,26 @@
       const btn = form.querySelector('button[type="submit"]');
       if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
 
-      status.className = "form-status is-visible is-ok";
-      status.textContent = t("contact.form.ok");
-      status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
-
-      setTimeout(() => {
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(r => r.json())
+      .then(data => {
+        status.className = "form-status is-visible is-ok";
+        status.textContent = t("contact.form.ok");
+        form.reset();
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+        status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+      })
+      .catch(() => {
+        // Fallback
+        status.className = "form-status is-visible is-ok";
+        status.textContent = t("contact.form.ok");
         form.submit();
-      }, 600);
+      });
     });
 
     $$("input, textarea, select", form).forEach((f) => {
