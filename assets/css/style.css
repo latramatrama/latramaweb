@@ -461,6 +461,14 @@ strong, b { font-weight: 650; color: var(--ink); }
 
 .site-header.is-scrolled::after { background: transparent; }
 
+.site-header.is-scrolled .nav__link::after {
+  background: #c77a7a;
+}
+
+.site-header.is-scrolled .nav__link[aria-current="page"] {
+  color: #c77a7a;
+}
+
 .site-header.is-open {
   background: transparent;
   box-shadow: none;
