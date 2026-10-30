@@ -323,22 +323,25 @@
       const formData = new FormData(form);
       fetch(form.action, {
         method: "POST",
-        body: formData,
-        headers: { 'Accept': 'application/json' }
+        body: formData
       })
       .then(r => r.json())
       .then(data => {
-        status.className = "form-status is-visible is-ok";
-        status.textContent = t("contact.form.ok");
-        form.reset();
+        if (data.success) {
+          status.className = "form-status is-visible is-ok";
+          status.textContent = t("contact.form.ok");
+          form.reset();
+        } else {
+          status.className = "form-status is-visible is-err";
+          status.textContent = t("contact.form.err");
+        }
         if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
         status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
       })
       .catch(() => {
-        // Fallback
-        status.className = "form-status is-visible is-ok";
-        status.textContent = t("contact.form.ok");
-        form.submit();
+        status.className = "form-status is-visible is-err";
+        status.textContent = t("contact.form.err");
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
       });
     });
 
