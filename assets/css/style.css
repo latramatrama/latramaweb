@@ -451,21 +451,34 @@ strong, b { font-weight: 650; color: var(--ink); }
 }
 
 .site-header.is-scrolled {
-  background: rgba(247, 242, 232, 0.93);
+  background: rgba(199, 122, 122, 0.95);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  color: var(--ink);
+  color: #fff;
   height: 68px;
-  box-shadow: 0 10px 34px rgba(23, 19, 14, 0.08);
+  box-shadow: 0 10px 34px rgba(23, 19, 14, 0.12);
 }
 
 .site-header.is-scrolled::after { background: transparent; }
 
 .site-header.is-scrolled .nav__link::after {
-  background: #c77a7a;
+  background: #fff;
 }
 
 .site-header.is-scrolled .nav__link[aria-current="page"] {
+  color: #fff;
+}
+
+.site-header.is-scrolled .lang {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.site-header.is-scrolled .burger {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.site-header.is-scrolled .lang__btn[aria-pressed="true"] {
+  background: #fff;
   color: #c77a7a;
 }
 
