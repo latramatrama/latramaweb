@@ -375,21 +375,41 @@
     const form = $("[data-newsletter]");
     if (!form) return;
     form.addEventListener("submit", (e) => {
+      e.preventDefault();
       const input = $("input[type=email], input[name=email]", form);
       const ok = input && /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(input.value.trim());
       const note = $("[data-newsletter-note]", form.parentElement) || $("[data-newsletter-note]");
+      const btn = form.querySelector('button[type="submit"]');
       if (!ok) {
-        e.preventDefault();
         input.focus();
         input.style.borderColor = "#ffb4a2";
         return;
       }
       input.style.borderColor = "";
-      if (note) {
-        note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
-        note.style.display = "block";
-      }
-      // Deixar enviar amb FormSubmit
+      if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (note) {
+          note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
+          note.style.display = "block";
+        }
+        form.reset();
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+      })
+      .catch(() => {
+        if (note) {
+          note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
+          note.style.display = "block";
+        }
+        form.reset();
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+      });
     });
   }
 
