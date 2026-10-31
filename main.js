@@ -320,13 +320,48 @@
       const btn = form.querySelector('button[type="submit"]');
       if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
 
-      status.className = "form-status is-visible is-ok";
-      status.textContent = t("contact.form.ok");
-      status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
-
-      setTimeout(() => {
-        form.submit();
-      }, 600);
+      const emailInput = document.getElementById('f-email');
+      const replyto = form.querySelector('input[name="replyto"]');
+      if (replyto && emailInput) replyto.value = emailInput.value;
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          status.className = "form-status is-visible is-ok";
+          status.textContent = t("contact.form.ok");
+          form.reset();
+          if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+          status.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "center" });
+          return;
+        }
+        throw new Error(data.message || 'error');
+      })
+      .catch(() => {
+        const nameV = document.getElementById('f-name')?.value || '';
+        const emailV = document.getElementById('f-email')?.value || '';
+        const phoneV = document.getElementById('f-phone')?.value || '';
+        const subjV = document.getElementById('f-subject')?.value || '';
+        const msgV = document.getElementById('f-msg')?.value || '';
+        const subject = encodeURIComponent('Mensaje web La Trama - ' + subjV);
+        const body = encodeURIComponent(
+          'Nombre: ' + nameV + '\n' +
+          'Email: ' + emailV + '\n' +
+          'Teléfono: ' + phoneV + '\n' +
+          'Motivo: ' + subjV + '\n\n' +
+          'Mensaje:\n' + msgV
+        );
+        status.className = "form-status is-visible is-ok";
+        status.textContent = t("contact.form.ok");
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+        window.location.href = 'mailto:info@latramatrama.org?subject=' + subject + '&body=' + body;
+      });
     });
 
     $$("input, textarea, select", form).forEach((f) => {
@@ -341,20 +376,40 @@
     if (!form) return;
     form.addEventListener("submit", (e) => {
       e.preventDefault();
-      const input = $("input", form);
+      const input = $("input[type=email], input[name=email]", form);
       const ok = input && /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(input.value.trim());
       const note = $("[data-newsletter-note]", form.parentElement) || $("[data-newsletter-note]");
+      const btn = form.querySelector('button[type="submit"]');
       if (!ok) {
         input.focus();
         input.style.borderColor = "#ffb4a2";
         return;
       }
       input.style.borderColor = "";
-      if (note) {
-        note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "";
-        note.style.display = "block";
-      }
-      form.reset();
+      if (btn) { btn.disabled = true; btn.style.opacity = "0.6"; }
+      const formData = new FormData(form);
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (note) {
+          note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
+          note.style.display = "block";
+        }
+        form.reset();
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+      })
+      .catch(() => {
+        if (note) {
+          note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
+          note.style.display = "block";
+        }
+        form.reset();
+        if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
+      });
     });
   }
 
