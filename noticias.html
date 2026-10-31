@@ -136,14 +136,17 @@
   <!-- Boletín -->
   <section class="section section--tight" id="boletin">
     <div class="container">
-      <form class="newsletter" data-newsletter data-reveal="zoom">
+      <form class="newsletter" action="https://formsubmit.co/info@latramatrama.org" method="POST" data-newsletter data-reveal="zoom">
+        <input type="hidden" name="_subject" value="Nueva suscripción al boletín - La Trama">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <div>
           <h3 class="h3" data-i18n="news.nl.title">Boletín de La Trama</h3>
           <p data-i18n="news.nl.text">Un correo al mes con la agenda, las convocatorias y poco más. Sin ruido.</p>
         </div>
         <div class="newsletter__form">
           <label class="sr-only" for="nl-email" data-i18n="news.nl.ph">Tu correo electrónico</label>
-          <input id="nl-email" type="email" required data-i18n-ph="news.nl.ph" placeholder="Tu correo electrónico" aria-label="Email">
+          <input id="nl-email" name="email" type="email" required data-i18n-ph="news.nl.ph" placeholder="Tu correo electrónico" aria-label="Email">
           <button class="btn" type="submit" data-i18n="news.nl.btn">Suscribirme</button>
         </div>
       </form>

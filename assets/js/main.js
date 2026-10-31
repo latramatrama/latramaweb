@@ -375,21 +375,21 @@
     const form = $("[data-newsletter]");
     if (!form) return;
     form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const input = $("input", form);
+      const input = $("input[type=email], input[name=email]", form);
       const ok = input && /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(input.value.trim());
       const note = $("[data-newsletter-note]", form.parentElement) || $("[data-newsletter-note]");
       if (!ok) {
+        e.preventDefault();
         input.focus();
         input.style.borderColor = "#ffb4a2";
         return;
       }
       input.style.borderColor = "";
       if (note) {
-        note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "";
+        note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
         note.style.display = "block";
       }
-      form.reset();
+      // Deixar enviar amb FormSubmit
     });
   }
 
