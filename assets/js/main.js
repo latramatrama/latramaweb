@@ -395,11 +395,19 @@
       })
       .then(r => r.json())
       .then(data => {
-        if (note) {
-          note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
-          note.style.display = "block";
+        if (data.success) {
+          if (note) {
+            note.textContent = window.LaTrama ? window.LaTrama.t("news.nl.ok") : "¡Hecho! Revisa tu correo para confirmar la suscripción.";
+            note.style.display = "block";
+          }
+          form.reset();
+        } else {
+          if (note) {
+            note.textContent = window.LaTrama ? window.LaTrama.t("contact.form.err") : "Ha ocurrido un error. Inténtalo de nuevo.";
+            note.style.display = "block";
+            note.style.color = "#c0392b";
+          }
         }
-        form.reset();
         if (btn) { btn.disabled = false; btn.style.opacity = "1"; }
       })
       .catch(() => {
